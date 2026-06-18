@@ -67,3 +67,14 @@ __pycache__/
 
 # mdBook build output
 book/
+
+# Temporary extraction / scratch artifacts
+.tmp-*
+.tmp/
+*.bin
+*.pdf
+*.png
+*.jpg
+*.jpeg
+未命名*.md
+scratch_*
