@@ -20,7 +20,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
 
   themeConfig: {
-    logo: '/hello-english/logo.svg',
+    logo: '/logo.svg',
     siteTitle: 'Hello English',
 
     nav: [
