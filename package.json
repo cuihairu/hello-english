@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "vitepress": "^1.6.4"
+  },
+  "dependencies": {
+    "@fontsource/source-serif-4": "^5.3.0"
   }
 }

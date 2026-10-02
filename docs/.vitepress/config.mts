@@ -5,7 +5,7 @@ import sidebar from './sidebar.json'
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Hello English',
-  description: '同等学力英语备考知识库——考点分析、高频词汇、语法翻译、写作阅读与 2010-2025 历年真题',
+  description: '同等学力英语备考知识库，涵盖考点分析、高频词汇、语法翻译、写作阅读与 2010-2025 历年真题',
   base: '/hello-english/',
   cleanUrls: true,
   lastUpdated: true,

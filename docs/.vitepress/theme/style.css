@@ -1,11 +1,11 @@
 /* ============================================================
-   Hello English · 主题样式
-   文档阅读型模板（popular-web-designs / mintlify 阅读优化型）
-   改 accent 为 terracotta 暖色——品牌色取自 logo.svg fill 频次
-   统计：#C2410C 2 次（最高）> #FED7AA 1 次 > #7C2D12 1 次。
+   Hello English · 主题样式（editorial 书卷风）
+   字体：拉丁标题衬线 Source Serif 4，中文自动回退系统黑体
+   色彩：暖纸底 + 单一 terracotta accent（取自 logo fill 频次 #C2410C）
+   形状：卡片/容器 12px、行内代码 6px、词性标签 pill，转场 200ms
    ============================================================ */
 
-/* ---------- 品牌色（terracotta 暖色，非默认蓝） ---------- */
+/* ---------- 品牌色（terracotta，亮暗两套） ---------- */
 :root {
   --vp-c-brand-1: #C2410C;
   --vp-c-brand-2: #9A3412;
@@ -19,10 +19,46 @@
   --vp-c-brand-soft: rgba(251, 146, 60, 0.16);
 }
 
+/* ---------- 暖纸底（light）与暖夜色（dark），全程不用纯黑 ---------- */
 :root {
+  --vp-c-bg: #fffcf8;
+  --vp-c-bg-alt: #faf5ee;
+  --vp-c-bg-soft: #faf5ee;
+  --vp-c-bg-elv: #fffcf8;
+  --vp-c-text-1: #2b2118;
+  --vp-c-text-2: #5d5147;
+  --vp-c-text-3: #8b7d6f;
+  --vp-c-border: #e8ddd0;
+  --vp-c-divider: #efe6d9;
+  --vp-c-gutter: #efe6d9;
+
+  --vp-code-block-bg: #f7f1e6;
+  --vp-code-color: #9A3412;
+
+  --he-shadow: 0 10px 28px rgba(194, 65, 12, 0.08);
+  --he-serif: 'Source Serif 4', Georgia, 'Times New Roman', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', serif;
+
   --vp-font-body: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB',
     'Microsoft YaHei', 'Noto Sans CJK SC', 'Segoe UI', sans-serif;
   --vp-font-mono: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+}
+.dark {
+  --vp-c-bg: #151210;
+  --vp-c-bg-alt: #1d1815;
+  --vp-c-bg-soft: #1d1815;
+  --vp-c-bg-elv: #1d1815;
+  --vp-c-text-1: #ece3d7;
+  --vp-c-text-2: #b3a596;
+  --vp-c-text-3: #857767;
+  --vp-c-border: #3a2f26;
+  --vp-c-divider: #332a22;
+  --vp-c-gutter: #332a22;
+
+  --vp-code-block-bg: #211a15;
+  --vp-code-color: #FCA568;
+
+  --he-shadow: 0 10px 28px rgba(194, 65, 12, 0.1);
 }
 
 /* ---------- 基础 ---------- */
@@ -34,7 +70,26 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-/* 浏览器表面（滚动条、焦点环属于设计） */
+::selection {
+  background: rgba(194, 65, 12, 0.18);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* reduced-motion 用户：转场与动画全关 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -56,9 +111,66 @@ body {
   outline-offset: 2px;
 }
 
-/* ---------- 中文正文排印：段首缩进 · 行距 · 块间距 ---------- */
-/* 缩进只在主题层做（text-indent），源文里不敲全角空格；
-   列表、引用、表格、提示容器内的段落按阅读习惯不缩进 */
+/* ---------- 首页 hero：底部极淡开口书线条（terracotta 4%） ---------- */
+
+.VPHero {
+  position: relative;
+  overflow: hidden;
+}
+.VPHero::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 150px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 160' fill='none' stroke='%23C2410C' stroke-opacity='.04' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M600 132C520 96 400 84 240 88v22c160-4 280 8 360 44'/%3E%3Cpath d='M600 132c80-36 200-48 360-44v22c-160-4-280 8-360 44'/%3E%3Cpath d='M600 132v22'/%3E%3Cpath d='M300 118c70-6 150 0 220 22'/%3E%3Cpath d='M900 118c-70-6-150 0-220 22'/%3E%3C/svg%3E")
+    no-repeat center bottom;
+  background-size: min(1100px, 92%) auto;
+  pointer-events: none;
+}
+.VPHero .name {
+  font-family: var(--he-serif);
+  letter-spacing: -0.02em;
+}
+
+/* ---------- 首页 features：2×2 暖纸卡 + hover 竖线浮现 ---------- */
+
+@media (min-width: 640px) {
+  .VPFeatures .items .item.grid-4 {
+    width: 50% !important;
+  }
+}
+.VPFeature {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-border);
+  background: var(--vp-c-bg-soft);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.VPFeature::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 14%;
+  bottom: 14%;
+  width: 3px;
+  border-radius: 0 3px 3px 0;
+  background: var(--vp-c-brand-1);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.VPFeature:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--he-shadow);
+  border-color: rgba(194, 65, 12, 0.35);
+}
+.VPFeature:hover::before {
+  opacity: 1;
+}
+
+/* ---------- 中文正文排印：段首缩进 · 行距 · 留白 ---------- */
 
 .vp-doc p {
   text-indent: 2em;
@@ -72,8 +184,13 @@ body {
   text-indent: 0;
 }
 
-/* 标题与正文的呼吸：h2 下留一段、h3 上留半段；
-   展示级标题收紧字距（mintlify 阅读优化原则），正文保持常规范 */
+/* 标题走衬线（拉丁），中文回退黑体；中英混排即书卷感 */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4 {
+  font-family: var(--he-serif);
+}
 .vp-doc h1 {
   font-size: 1.9rem;
   line-height: 1.4;
@@ -92,7 +209,21 @@ body {
   letter-spacing: -0.01em;
 }
 
-/* 块级内容的上下留白统一口径 */
+/* 引用块：衬线 italic + 左 3px terracotta + 暖纸底 */
+.vp-doc blockquote {
+  font-family: var(--he-serif);
+  font-style: italic;
+  border-left: 3px solid var(--vp-c-brand-1);
+  border-radius: 0 12px 12px 0;
+  background: var(--vp-c-bg-alt);
+  color: var(--vp-c-text-2);
+  padding: 10px 20px;
+  margin: 1.4rem 0;
+  transition: background-color 0.2s ease;
+}
+
+/* ---------- 表格：暖底表头 + 斑马纹 ---------- */
+
 .vp-doc table {
   width: 100%;
   margin: 1.4rem 0;
@@ -104,32 +235,79 @@ body {
   line-height: 1.6;
   padding: 0.6rem 0.9rem;
 }
+.vp-doc th {
+  background: rgba(194, 65, 12, 0.06);
+  color: var(--vp-c-brand-3);
+}
+.dark .vp-doc th {
+  background: rgba(251, 146, 60, 0.09);
+  color: var(--vp-c-brand-1);
+}
+.vp-doc tbody tr:nth-child(2n) td {
+  background: #fdf9f3;
+}
+.dark .vp-doc tbody tr:nth-child(2n) td {
+  background: rgba(255, 255, 255, 0.02);
+}
 .vp-doc li {
   margin: 0.35rem 0;
 }
-/* 图片单独成段时居中排，与上下文拉开 */
 .vp-doc p > img:only-child {
   display: block;
   margin: 1rem auto;
 }
 
-/* ---------- 正文链接：划线 ---------- */
+/* ---------- 形状：容器 12px / 行内代码 6px / kbd 统一 ---------- */
 
-.vp-doc :not(h1, h2, h3, h4, h5, h6) a {
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
+.vp-doc .custom-block,
+.vp-doc div[class*='language-'] {
+  border-radius: 12px;
 }
-
-/* ---------- 代码 ---------- */
+.vp-doc .custom-block {
+  box-shadow: none;
+  transition: background-color 0.2s ease;
+}
 
 .vp-doc :not(pre, h1, h2, h3, h4, h5, h6) > code {
   font-family: var(--vp-font-mono);
   font-size: 0.85em;
-  border-radius: 4px;
-  padding: 2px 6px;
+  border-radius: 6px;
+  padding: 2px 7px;
 }
-
 .vp-doc div[class*='language-'] code {
   font-size: 0.875rem;
   line-height: 1.7;
+}
+
+kbd {
+  display: inline-block;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 6px;
+  padding: 1px 6px;
+  font-family: var(--vp-font-mono);
+  font-size: 0.85em;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+}
+
+/* 词性标签（n./v./adj. 等，表格中独占一格的 code）渲染为 pill */
+.vp-doc td code:only-child {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-3);
+  border-radius: 999px;
+  padding: 1px 10px;
+  font-family: var(--vp-font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.dark .vp-doc td code:only-child {
+  color: var(--vp-c-brand-1);
+}
+
+/* ---------- 正文链接 ---------- */
+
+.vp-doc :not(h1, h2, h3, h4, h5, h6) a {
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 0.2s ease;
 }
