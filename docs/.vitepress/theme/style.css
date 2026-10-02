@@ -140,6 +140,10 @@ html {
   .VPFeatures .items .item.grid-4 {
     width: 50% !important;
   }
+  /* 第 5 张卡（发展史时间线）落在单数位：占满一行避免孤卡 */
+  .VPFeatures .items .item.grid-4:last-child:nth-child(odd) {
+    width: 100% !important;
+  }
 }
 .VPFeature {
   position: relative;

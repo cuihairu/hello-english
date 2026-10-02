@@ -30,4 +30,8 @@ features:
     details: 2010-2025 年共 16 份整理版真题，附来源核对说明、参考答案与推导答案标注。
     link: /exam/真题/真题来源核对
     linkText: 刷真题
+  - title: 发展史时间线
+    details: 26 个节点串起 449 至今的英语语言史，四个时期四条线索，每个节点都回答「为什么是这个时候」。
+    link: /timeline
+    linkText: 通览全史
 ---
