@@ -1,8 +1,0 @@
-[book]
-authors = ["cuihairu"]
-language = "en"
-src = "./"
-title = "Hello English"
-
-[output.html]
-default-theme = "light"

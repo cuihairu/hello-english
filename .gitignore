@@ -78,3 +78,8 @@ book/
 *.jpeg
 未命名*.md
 scratch_*
+
+# VitePress
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
