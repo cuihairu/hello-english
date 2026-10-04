@@ -4,8 +4,33 @@
     "link": "/english/Readme"
   },
   {
-    "text": "发展史时间线",
-    "link": "/timeline"
+    "text": "学习笔记",
+    "items": [
+      {
+        "text": "发音",
+        "link": "/pronunciation"
+      },
+      {
+        "text": "词根来源",
+        "link": "/roots"
+      },
+      {
+        "text": "发展历史",
+        "link": "/history"
+      },
+      {
+        "text": "发展史时间线",
+        "link": "/timeline"
+      },
+      {
+        "text": "语法",
+        "link": "/grammar"
+      },
+      {
+        "text": "时态",
+        "link": "/tense"
+      }
+    ]
   },
   {
     "text": "考点分析",

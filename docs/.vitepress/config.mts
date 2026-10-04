@@ -5,7 +5,7 @@ import sidebar from './sidebar.json' with { type: 'json' }
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Hello English',
-  description: '同等学力英语备考知识库，涵盖考点分析、高频词汇、语法翻译、写作阅读与 2010-2025 历年真题',
+  description: '英语学习笔记：发音点读、词根来源、发展历史、语法与时态，附考点分析与 2010-2025 历年真题',
   base: '/hello-english/',
   cleanUrls: true,
   lastUpdated: true,
@@ -25,14 +25,23 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
+      {
+        text: '学习笔记',
+        items: [
+          { text: '发音', link: '/pronunciation' },
+          { text: '词根来源', link: '/roots' },
+          { text: '发展历史', link: '/history' },
+          { text: '发展史时间线', link: '/timeline' },
+          { text: '语法', link: '/grammar' },
+          { text: '时态', link: '/tense' }
+        ]
+      },
       { text: '考点分析', link: '/exam/高频考点分析' },
-      { text: '高频词汇', link: '/exam/高频词汇' },
-      { text: '高频写作', link: '/exam/高频写作' },
       { text: '历年真题', link: '/exam/真题/真题来源核对' }
     ],
 
     // 由 mdbook SUMMARY.md 结构映射而来（scripts: parse_summary.py），
-    // 3 个顶层条目：入口页、考点分析、历年真题（2010-2025）
+    // 4 个顶层条目：入口页、学习笔记、考点分析、历年真题（2010-2025）
     sidebar: sidebar as never,
 
     socialLinks: [
