@@ -38,6 +38,10 @@ features:
     details: 时间 × 体的 16 格全景矩阵，九大常用时态逐个过：结构、标志词、例句点读与易错对比。
     link: /tense
     linkText: 理线索
+  - title: 专题
+    details: 易混词、介词、词根家族、长难句，一类问题收拢成一页，配引子与条目清单，整理中的选题也在总览页列出。
+    link: /topic
+    linkText: 看专题
   - title: 考点分析
     details: 基于 2013-2025 年真题统计各题型高频考点与投入产出比，先抓大头再补短板。
     link: /exam/高频考点分析

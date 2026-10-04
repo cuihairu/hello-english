@@ -5,7 +5,7 @@ import sidebar from './sidebar.json' with { type: 'json' }
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Hello English',
-  description: '英语学习笔记：发音点读、词根来源、发展历史、语法与时态，附考点分析与 2010-2025 历年真题',
+  description: '英语学习笔记：发音点读、词根来源、发展历史、语法与时态，附专题、考点分析与 2010-2025 历年真题',
   base: '/hello-english/',
   cleanUrls: true,
   lastUpdated: true,
@@ -36,11 +36,13 @@ export default defineConfig({
           { text: '时态', link: '/tense' }
         ]
       },
+      { text: '专题', link: '/topic' },
       { text: '考点分析', link: '/exam/高频考点分析' },
-      { text: '历年真题', link: '/exam/真题/真题来源核对' }
+      { text: '历年真题', link: '/exam/真题/真题来源核对' },
+      { text: '关于', link: '/about' }
     ],
 
-    // 4 个顶层条目：入口页、学习笔记、考点分析、历年真题（2010-2025）。
+    // 6 个顶层条目：入口页、学习笔记、专题、考点分析、历年真题（2010-2025）、关于。
     // 早期由 mdbook SUMMARY.md 结构映射而来，学习笔记组为手工扩展
     sidebar: sidebar as never,
 

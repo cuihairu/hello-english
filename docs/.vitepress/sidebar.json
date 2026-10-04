@@ -33,6 +33,31 @@
     ]
   },
   {
+    "text": "专题",
+    "items": [
+      {
+        "text": "总览",
+        "link": "/topic"
+      },
+      {
+        "text": "易混词",
+        "link": "/topic/易混词"
+      },
+      {
+        "text": "介词",
+        "link": "/topic/介词"
+      },
+      {
+        "text": "词根家族",
+        "link": "/topic/词根家族"
+      },
+      {
+        "text": "长难句",
+        "link": "/topic/长难句"
+      }
+    ]
+  },
+  {
     "text": "考点分析",
     "collapsed": true,
     "items": [
@@ -147,5 +172,9 @@
         "link": "/exam/真题/2010年同等学力英语真题"
       }
     ]
+  },
+  {
+    "text": "关于本站",
+    "link": "/about"
   }
 ]
