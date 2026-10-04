@@ -61,7 +61,7 @@
 ```bash
 npm install
 npm run docs:dev      # 本地开发，默认 http://localhost:5173/hello-english/
-npm run docs:build    # 构建到 docs/.vitepress/dist
+npm run docs:build    # 构建到 docs/.vitepress/dist，构建时检查死链
 npm run docs:preview  # 本地预览构建产物
 ```
 
