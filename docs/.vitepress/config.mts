@@ -27,8 +27,6 @@ export default defineConfig({
   // docs/SUMMARY.md 是 mdbook SUMMARY 的结构映射底稿，不作为页面构建
   srcExclude: ['**/SUMMARY.md'],
 
-  ignoreDeadLinks: true,
-
   // 每页补 og 分享 meta（返回值与原 head 合并，不会覆盖默认项）
   // ctx.page 是 md 源路径而非输出 html（类型注释与实测不符），按 md 去后缀
   transformHead({ page, title, description }) {
