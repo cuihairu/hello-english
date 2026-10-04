@@ -27,7 +27,7 @@ features:
     link: /history
     linkText: 通读全史
   - title: 发展史时间线
-    details: 26 个节点串起 449 至今的英语语言史，按语音、词汇、规范、考试四条线索过滤，点开看每个节点的来由。
+    details: 34 个节点串起 449 至今的英语语言史，按语音、词汇、规范、考试四条线索过滤，点开看每个节点的来由。
     link: /timeline
     linkText: 看时间线
   - title: 语法

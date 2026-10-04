@@ -40,8 +40,8 @@ export default defineConfig({
       { text: '历年真题', link: '/exam/真题/真题来源核对' }
     ],
 
-    // 由 mdbook SUMMARY.md 结构映射而来（scripts: parse_summary.py），
-    // 4 个顶层条目：入口页、学习笔记、考点分析、历年真题（2010-2025）
+    // 4 个顶层条目：入口页、学习笔记、考点分析、历年真题（2010-2025）。
+    // 早期由 mdbook SUMMARY.md 结构映射而来，学习笔记组为手工扩展
     sidebar: sidebar as never,
 
     socialLinks: [
@@ -50,7 +50,7 @@ export default defineConfig({
 
     footer: {
       message: 'Hello English',
-      copyright: '© 2025 cuihairu'
+      copyright: '© 2026 cuihairu'
     },
 
     search: {
