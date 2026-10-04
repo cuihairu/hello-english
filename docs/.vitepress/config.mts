@@ -29,6 +29,21 @@ export default defineConfig({
 
   ignoreDeadLinks: true,
 
+  // 每页补 og 分享 meta（返回值与原 head 合并，不会覆盖默认项）
+  // ctx.page 是 md 源路径而非输出 html（类型注释与实测不符），按 md 去后缀
+  transformHead({ page, title, description }) {
+    const route = '/' + page.replace(/\.md$/, '').replace(/(^|\/)index$/, '$1')
+    const url = encodeURI('https://cuihairu.github.io/hello-english' + (route === '/' ? '/' : route))
+    return [
+      ['meta', { property: 'og:type', content: 'website' }],
+      ['meta', { property: 'og:site_name', content: 'Hello English' }],
+      ['meta', { property: 'og:title', content: title }],
+      ['meta', { property: 'og:description', content: description }],
+      ['meta', { property: 'og:url', content: url }],
+      ['meta', { name: 'twitter:card', content: 'summary' }]
+    ]
+  },
+
   themeConfig: {
     logo: '/logo.svg',
     siteTitle: 'Hello English',
