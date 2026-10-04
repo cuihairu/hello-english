@@ -27,8 +27,8 @@
 | 区块 | 页面 | 状态 |
 | --- | --- | --- |
 | 发音：48 音标、易混音、重音弱读、拼读规律 | `/pronunciation` | 已实现 |
-| 点读出声——语音合成链路 | SpeakButton 组件 | 已实现（浏览器 Web Speech API，离线可用） |
-| 点读出声——词典真人音频链路 | SpeakButton 组件 | 已实现，依赖 dictionaryapi.dev（接口不可达时自动回退合成链路） |
+| 点读出声（浏览器语音合成） | SpeakButton 组件 | 已实现（Web Speech API，离线可用） |
+| 点读出声（词典真人音频） | SpeakButton 组件 | 已实现，依赖 dictionaryapi.dev（接口不可达时自动回退合成链路） |
 | 词根来源：30 条目逐条有来源故事 | `/roots` | 已实现 |
 | 发展历史：四段通史 + 借词事件 | `/history` | 已实现 |
 | 发展史时间线：33 节点四条线索过滤 | `/timeline` | 已实现 |

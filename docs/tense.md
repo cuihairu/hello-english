@@ -23,7 +23,7 @@
 - 客观真理：Water boils at 100 degrees.
 - 时刻表与固定安排（按 timetable 说死的将来）：<SpeakButton kind="sentence" word="The train leaves at nine tomorrow." text="The train leaves at nine tomorrow." />
 
-易错：三单忘加 s；**状态动词（know、belong、love、want）不用进行时**——I am knowing 是错的。
+易错：三单忘加 s；**状态动词（know、belong、love、want）不用进行时**，I am knowing 是错的。
 
 ### 现在进行时
 
@@ -38,7 +38,7 @@
 **结构**：did（规则动词 +ed）
 
 - 过去某时发生且**与现在切断**的动作：I saw him yesterday.
-- 常与明确的过去时间状语连用：last year、in 2010、two days ago——这是它与现在完成时互斥的根源。
+- 常与明确的过去时间状语连用：last year、in 2010、two days ago。这是它与现在完成时互斥的根源。
 
 ### 过去进行时
 
@@ -58,7 +58,7 @@
 - 经历（到目前为止的人生清单）：She has been to Japan twice.
 
 标志词：already、yet、just、ever、never、since、for、so far、recently。
-**头号易错**：不能与明确的过去时间点连用——I have seen him **yesterday** 是错的，要么 I saw him yesterday，要么 I have seen him **recently**。判定口诀：**句子里有具体过去时间点就用一般过去，没有且强调对现在的影响就用现在完成**。
+**头号易错**：不能与明确的过去时间点连用，I have seen him **yesterday** 是错的，要么 I saw him yesterday，要么 I have seen him **recently**。判定口诀：**句子里有具体过去时间点就用一般过去，没有且强调对现在的影响就用现在完成**。
 
 ### 过去完成时
 
@@ -88,7 +88,7 @@ will 与 be going to 的分工：桌上空杯顺手说 **I will get** some water
 
 **结构**：would do / was going to do
 
-站在过去说「以后」：间接引语的后退一格（He said he **would come**）、以及叙事里的「未遂将来」——I was going to call you, but I forgot（本来打算，没做成）。
+站在过去说「以后」：间接引语的后退一格（He said he **would come**）、以及叙事里的「未遂将来」：I was going to call you, but I forgot（本来打算，没做成）。
 
 ### 现在完成进行时
 
@@ -109,9 +109,9 @@ will 与 be going to 的分工：桌上空杯顺手说 **I will get** some water
 | 典型状语 | yesterday, in 2010, ago | already, yet, since, for |
 | 例 | I lost my keys yesterday. | I have lost my keys.（还找不着） |
 
-**have been to vs have gone to**——He has been to Paris（去过，回来了）；He has gone to Paris（去了，人还没回来）。一个经历，一个下落。
+**have been to vs have gone to**：He has been to Paris（去过，回来了）；He has gone to Paris（去了，人还没回来）。一个经历，一个下落。
 
-**when vs while**——when 引导的动作可长可短可瞬间（I was reading **when** he called）；while 引导延续性动作，常与进行时搭（**While** she was cooking, …），还可表对比（I like tea **while** he likes coffee）。
+**when vs while**：when 引导的动作可长可短可瞬间（I was reading **when** he called）；while 引导延续性动作，常与进行时搭（**While** she was cooking, …），还可表对比（I like tea **while** he likes coffee）。
 
 ## 主将从现全规则
 
@@ -120,7 +120,7 @@ will 与 be going to 的分工：桌上空杯顺手说 **I will get** some water
 - <SpeakButton kind="sentence" word="I will call you as soon as I arrive." text="I will call you as soon as I arrive." />（不是 as soon as I will arrive）
 - Unless it rains, the match will go on.
 
-三个常见例外要认得：**if 表「愿意」**（If you will follow me, please——请愿语气）；**whether…or not 可接 will**（I don't know whether it will rain or not——这不是条件从句，是宾语从句，规则不适用）；**条件从句里用现在完成**表「完成前提」（If you have finished, let's go）。
+三个常见例外要认得：**if 表「愿意」**：If you will follow me, please（请愿语气）；**whether…or not 可接 will**：I don't know whether it will rain or not（这不是条件从句，是宾语从句，规则不适用）；**条件从句里用现在完成**表「完成前提」（If you have finished, let's go）。
 
 ## 时态呼应（间接引语）
 
@@ -129,10 +129,10 @@ will 与 be going to 的分工：桌上空杯顺手说 **I will get** some water
 - <SpeakButton kind="sentence" word="She said she was busy." text="She said she was busy." />（原话：I am busy.）
 - He told me he had seen the film.（原话：I have seen the film.）
 
-**不后退**的情形：从句内容是客观真理（The teacher said that water **boils** at 100 degrees.）、或所述之事现在仍然成立（She said she **is** coming tomorrow——明天还没到，说的时候用 is 依旧自然）。
+**不后退**的情形：从句内容是客观真理（The teacher said that water **boils** at 100 degrees.）、或所述之事现在仍然成立（She said she **is** coming tomorrow，明天还没到，说的时候用 is 依旧自然）。
 
 ## 延伸阅读
 
-- [语法](/grammar)：时态之外的主干——句型、从句、非谓语、虚拟语气。
+- [语法](/grammar)：时态之外的主干，讲句型、从句、非谓语、虚拟语气。
 - [高频语法与翻译](/exam/高频语法与翻译)：真题里时态考点的统计与翻译长句拆解。
 - [发音](/pronunciation)：例句里的连读弱读听不出？去发音页把 /ə/ 与重音练一练。

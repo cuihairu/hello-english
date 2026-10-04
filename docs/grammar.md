@@ -30,7 +30,7 @@
 | 连词 conj. | 连接词与句 | and，although |
 | 感叹词 int. | 独立于句子结构之外 | oh，well |
 
-冠词单列一组，三条核心：**a/an 表泛指某一个**（首次提及、任取一个）；**the 表特指**（双方已知、上文提过、或独一无二——the sun）；**零冠词**用于泛指的复数与不可数名词（Books are cheap.）。最易错的一处：泛指的可数名词单数必须带冠词，不能光杆——说 I like dog 是「我喜欢吃狗肉」，说「我喜欢狗」得是 I like dogs 或 the dog。
+冠词单列一组，三条核心：**a/an 表泛指某一个**（首次提及、任取一个）；**the 表特指**（双方已知、上文提过或独一无二，如 the sun）；**零冠词**用于泛指的复数与不可数名词（Books are cheap.）。最易错的一处：泛指的可数名词单数必须带冠词，不能光杆——说 I like dog 是「我喜欢吃狗肉」，说「我喜欢狗」得是 I like dogs 或 the dog。
 
 ## 五大基本句型
 
@@ -58,7 +58,7 @@ that / whether / wh- 词引导的句子，可作主语、宾语、表语、同�
 - <SpeakButton kind="sentence" word="I know that she lives here." text="I know that she lives here." />（宾语；that 在宾语位置常省略）
 - <SpeakButton kind="sentence" word="The news that he won spread fast." text="The news that he won spread fast." />（同位语，说明 news 的内容）
 
-易错两处：**语序**——从句一律陈述语序，Do you know where does he live 是错的，where he live**s** 才对；**that 与 what**——that 只起连接作用不作成分，what 自身在从句里充当主语或宾语。
+易错两处。**语序**：从句一律陈述语序，Do you know where does he live 是错的，where he live**s** 才对。**that 与 what**：that 只起连接作用不作成分，what 自身在从句里充当主语或宾语。
 
 ### 定语从句
 
@@ -67,7 +67,7 @@ that / whether / wh- 词引导的句子，可作主语、宾语、表语、同�
 - <SpeakButton kind="sentence" word="The book that I bought yesterday is good." text="The book that I bought yesterday is good." />（that 作 bought 的宾语）
 - <SpeakButton kind="sentence" word="The man who lives next door is a doctor." text="The man who lives next door is a doctor." />（who 作从句主语，谓语单复数跟着先行词）
 
-要点四条：**只用 that** 的情形（先行词是 all/everything/不定代词、或被序数词最高级修饰）；**介词后不用 that**（in which 正确，in that 不行）；**非限制性**（逗号隔开的补充说明）用 which/who 不用 that；最易错的是**关系词必须作成分**——The book that I bought **it** is good 这种「双主语」是中式英语的常见病，it 必须删。
+要点四条：**只用 that** 的情形（先行词是 all/everything/不定代词、或被序数词最高级修饰）；**介词后不用 that**（in which 正确，in that 不行）；**非限制性**（逗号隔开的补充说明）用 which/who 不用 that；最易错的是**关系词必须作成分**。The book that I bought **it** is good 这种「双主语」是中式英语的常见病，it 必须删。
 
 ### 状语从句
 
@@ -80,7 +80,7 @@ that / whether / wh- 词引导的句子，可作主语、宾语、表语、同�
 | 让步 | although / though / even if | Although he is young, he is reliable. |
 | 原因 | because / since / as | Since you are here, let's start. |
 
-**主将从现**：时间与条件从句用一般现在时表将来，主句才用将来时——If it **will rain** 是错的（见[时态页](/tense)详解）。
+**主将从现**：时间与条件从句用一般现在时表将来，主句才用将来时。If it **will rain** 是错的（见[时态页](/tense)详解）。
 
 ## 非谓语三件套
 
@@ -92,11 +92,11 @@ that / whether / wh- 词引导的句子，可作主语、宾语、表语、同�
 | doing | 主动、进行 | <SpeakButton kind="sentence" word="Standing on the hill, we saw the sea." text="Standing on the hill, we saw the sea." />（we 站着，主动） |
 | done | 被动、完成 | <SpeakButton kind="sentence" word="Seen from the hill, the town looks small." text="Seen from the hill, the town looks small." />（镇子被看，被动） |
 
-经典对比成对记：stop **to do**（停下来去做另一件事）/ stop **doing**（停止手头的事）；remember **to do**（记得要做，还没做）/ remember **doing**（记得做过）。分词的**逻辑主语必须与主句主语一致**——Walking in the street, a car hit him 是悬垂分词错误（车没在走路），改成 While he was walking, …。
+经典对比成对记：stop **to do**（停下来去做另一件事）/ stop **doing**（停止手头的事）；remember **to do**（记得要做，还没做）/ remember **doing**（记得做过）。分词的**逻辑主语必须与主句主语一致**。Walking in the street, a car hit him 是悬垂分词错误（车没在走路），改成 While he was walking, …。
 
 ## 语气与虚拟
 
-语气三分：陈述（说事）、祈使（指令）、虚拟（说反话——与事实相反或难以实现的假设）。虚拟语气的要点是**时态往回退一步**：
+语气三分：陈述（说事）、祈使（指令）、虚拟（说反话，即与事实相反或难以实现的假设）。虚拟语气的要点是**时态往回退一步**：
 
 | 假设类型 | 从句 | 主句 | 例 |
 | --- | --- | --- | --- |
@@ -125,14 +125,14 @@ wish 后的从句同样回退：I wish I **knew**（现在）/ I wish I **had kn
 
 ## 情态动词
 
-推测的确定性有一条梯度：**must（一定）> may（可能）> might（可能性更小）**；否定推测用 can't（不可能），不是 mustn't——He must be tired 是「一定累」，He can't be tired 才是「不可能累」。情态动词 + have done 表对过去的推测：must **have done**（过去一定做了）、should **have done**（本该做没做，带责备）、needn't **have done**（本不必做却做了）。
+推测的确定性有一条梯度：**must（一定）> may（可能）> might（可能性更小）**；否定推测用 can't（不可能），不是 mustn't。He must be tired 是「一定累」，He can't be tired 才是「不可能累」。情态动词 + have done 表对过去的推测：must **have done**（过去一定做了）、should **have done**（本该做没做，带责备）、needn't **have done**（本不必做却做了）。
 
 ## 倒装、强调与省略
 
-- **部分倒装**：否定词开头的状语提前，助动词提到主语前——Never **have I seen** such a mess. / Not only **does he** sing, but he also dances. / Only then **did I realize** the truth.
+- **部分倒装**：否定词开头的状语提前，助动词提到主语前。Never **have I seen** such a mess. / Not only **does he** sing, but he also dances. / Only then **did I realize** the truth.
 - **so/neither 倒装**：So do I（我也是）/ Neither do I（我也不），助动词与前面句子的时态一致。
-- **强调句**：It is/was + 被强调部分 + that/who + 其余。检验法：去掉 It is…that 后句子仍完整就是强调句——It was in Paris **that** they met → In Paris they met ✓。
-- **省略**：比较状语从句里与主句相同的成分可省——She is taller than I (am). / He runs faster than she (does)。省到只剩从属连词的状语从句（When asked, he nodded = When he was asked）是书面语的常态。
+- **强调句**：It is/was + 被强调部分 + that/who + 其余。检验法：去掉 It is…that 后句子仍完整就是强调句。It was in Paris **that** they met → In Paris they met ✓。
+- **省略**：比较状语从句里与主句相同的成分可省：She is taller than I (am). / He runs faster than she (does)。省到只剩从属连词的状语从句（When asked, he nodded = When he was asked）是书面语的常态。
 
 ## 延伸阅读
 

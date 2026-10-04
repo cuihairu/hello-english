@@ -19,7 +19,7 @@ features:
     link: /pronunciation
     linkText: 跟着读
   - title: 词根来源
-    details: 30 个常见词根词缀，每个讲一段来源故事——从拉丁希腊的原本义，走到今天的常用词。
+    details: 30 个常见词根词缀，每个讲一段来源故事：从拉丁希腊的原本义，走到今天的常用词。
     link: /roots
     linkText: 拆词源
   - title: 发展历史
@@ -31,7 +31,7 @@ features:
     link: /timeline
     linkText: 看时间线
   - title: 语法
-    details: 五大句型、三大从句、非谓语、虚拟语气——先给体系地图，再逐块拆核心逻辑与易错点，例句可点读。
+    details: 先给体系地图，再逐块拆五大句型、三大从句、非谓语、虚拟语气的核心逻辑与易错点，关键例句可点读。
     link: /grammar
     linkText: 看地图
   - title: 时态
