@@ -9,6 +9,16 @@ export default defineConfig({
   base: '/hello-english/',
   cleanUrls: true,
   lastUpdated: true,
+  sitemap: {
+    hostname: 'https://cuihairu.github.io',
+    // alpha 版把不带 base 的绝对路径交给 sitemap 库解析，会吞掉 base；此钩子把前缀补回
+    transformItems(items) {
+      return items.map((item) => ({
+        ...item,
+        url: '/hello-english' + (item.url.startsWith('/') ? item.url : `/${item.url}`)
+      }))
+    }
+  },
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/hello-english/favicon.svg' }]
@@ -49,6 +59,11 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cuihairu/hello-english' }
     ],
+
+    editLink: {
+      pattern: 'https://github.com/cuihairu/hello-english/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页'
+    },
 
     footer: {
       message: 'Hello English',
