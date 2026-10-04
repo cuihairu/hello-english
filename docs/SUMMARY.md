@@ -1,9 +1,20 @@
 # Summary
 
+> mdbook SUMMARY 结构映射底稿：构建时 `srcExclude`，不作为页面；构建用侧边栏是 `.vitepress/sidebar.json`。
+> 2026-10-04 站点定位调整为英语学习笔记，本底稿随「学习笔记」组同步。
+
 - [Hello English](english/Readme.md)
+- [学习笔记]()
+  - [发音](pronunciation.md)
+  - [词根来源](roots.md)
+  - [发展历史](history.md)
+  - [发展史时间线](timeline.md)
+  - [语法](grammar.md)
+  - [时态](tense.md)
 - [考点分析]()
   - [总览](exam/高频考点分析.md)
   - [高频词汇](exam/高频词汇.md)
+  - [词根词缀速记](exam/词根词缀.md)
   - [词汇速背版](exam/词汇速背版.md)
   - [高频语法与翻译](exam/高频语法与翻译.md)
   - [高频写作](exam/高频写作.md)
