@@ -39,7 +39,7 @@ features:
     link: /tense
     linkText: 理线索
   - title: 专题
-    details: 易混词、介词、词根家族、长难句，一类问题收拢成一页，配引子与条目清单，整理中的选题也在总览页列出。
+    details: 六个专题把一类问题收拢成一页：易混词、介词、词根家族、长难句、时态对比、发音难点。
     link: /topic
     linkText: 看专题
   - title: 考点分析
