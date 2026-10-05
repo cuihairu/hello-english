@@ -86,6 +86,17 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
+        miniSearch: {
+          options: {
+            // minisearch 默认按空白/标点切词，中文整段成单个 token，词中字搜不到；
+            // 西文按词、连续汉字逐字切，让「时态」能拆成「时」「态」命中正文
+            tokenize(text: string) {
+              return (text.toLowerCase().match(/[\p{L}\p{N}]+/gu) ?? []).flatMap((word) =>
+                /^[㐀-鿿]+$/.test(word) ? [...word] : [word]
+              )
+            }
+          }
+        },
         translations: {
           button: { buttonText: '搜索文档', buttonAriaLabel: '搜索' },
           modal: {
