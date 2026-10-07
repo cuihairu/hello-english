@@ -12,6 +12,8 @@
 
 ---
 
+<p align="center"><img src="docs/public/badges/topic.svg" alt="topic" /> <img src="docs/public/badges/docs.svg" alt="docs" /></p>
+
 ## 简介
 
 本项目是一份持续整理的英语学习笔记，从音标、词根、语法、时态讲到英语语言一千六百年的发展历史；历年备考中积累的考点分析与 2010-2025 年真题也一并收录，作为阅读与练习材料。使用 [VitePress](https://vitepress.dev) 构建站点。
