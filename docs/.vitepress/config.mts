@@ -59,7 +59,7 @@ export default defineConfig({
           { text: '时态', link: '/tense' }
         ]
       },
-      { text: '专题', link: '/topic' },
+      { text: '专题', link: '/topic/' },
       { text: '考点分析', link: '/exam/高频考点分析' },
       { text: '历年真题', link: '/exam/真题/真题来源核对' },
       { text: '关于', link: '/about' }
