@@ -48,6 +48,7 @@ This project is a continuously maintained collection of English study notes. It 
 | Topic pages: confusable words, prepositions, word-root families, long and complex sentences, tense comparison, pronunciation difficulties, non-finite verbs, comparison structures, clause connectors, the passive voice, condition and concession | `/topic` | Implemented (11 pages) |
 | About the site: positioning, audience, learning paths, update cadence | `/about` | Implemented |
 | Exam-point analysis (2010-2025 papers) | `/exam/*` | Implemented (148 vocabulary questions sampled, including same-type items from the 2010-2012 old-format papers; 2024 answers pending verification and not yet included) |
+| Exam time allocation: per-part pace, six checkpoints, time-value table | `/exam/考场时间分配` | Implemented |
 | Past papers 2010-2025, 16 in total | `/exam/真题/*` | Implemented (compiled editions; a few 2022 English texts [to be added], 2024 answers marked as pending verification) |
 | Local search: full-text search with character-level Chinese tokenization | site-wide search box | Implemented (Latin text is tokenized by word and consecutive Chinese characters character by character, so a character inside a word can match body text) |
 | Site infrastructure: sitemap and robots, og/twitter share cards, Chinese 404 page | site-wide | Implemented (the build also runs an internal dead-link check) |
