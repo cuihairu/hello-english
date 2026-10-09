@@ -15,7 +15,7 @@
 
 **English study notes**
 
-[Read online](https://cuihairu.github.io/hello-english/) · [Pronunciation](https://cuihairu.github.io/hello-english/pronunciation) · [Word roots](https://cuihairu.github.io/hello-english/roots) · [Language history](https://cuihairu.github.io/hello-english/history) · [Past papers](https://cuihairu.github.io/hello-english/exam/真题/真题来源核对)
+[Read online](https://cuihairu.github.io/hello-english/) · [Knowledge map](https://cuihairu.github.io/hello-english/knowledge) · [Pronunciation](https://cuihairu.github.io/hello-english/pronunciation) · [Word roots](https://cuihairu.github.io/hello-english/roots) · [Language history](https://cuihairu.github.io/hello-english/history) · [Past papers](https://cuihairu.github.io/hello-english/exam/真题/真题来源核对)
 
 </div>
 
@@ -44,6 +44,7 @@ This project is a continuously maintained collection of English study notes. It 
 | History timeline: 33 nodes, filterable along four threads | `/timeline` | Implemented |
 | Grammar: system map, sentence patterns, clauses, non-finite verbs, subjunctive | `/grammar` | Implemented (key example sentences are click-to-speak) |
 | Tenses: 16-cell matrix + nine major tenses | `/tense` | Implemented (the main example of each tense is click-to-speak) |
+| Knowledge map: study-note research consolidated in one page — core concepts, authoritative books, official docs with links, usage scenarios, common pitfalls | `/knowledge` | Implemented (each entry cross-linked back to its source page; unverifiable items marked as such) |
 | Topic pages: confusable words, prepositions, word-root families, long and complex sentences, tense comparison, pronunciation difficulties, non-finite verbs, comparison structures, clause connectors, the passive voice, condition and concession | `/topic` | Implemented (11 pages) |
 | About the site: positioning, audience, learning paths, update cadence | `/about` | Implemented |
 | Exam-point analysis (2013-2025 papers) | `/exam/*` | Implemented (98 vocabulary questions sampled; a few years such as 2019/2021/2024 have items marked [to be added] and are not included in the statistics) |

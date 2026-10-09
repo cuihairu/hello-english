@@ -15,7 +15,7 @@
 
 **英语学习笔记**
 
-[在线阅读](https://cuihairu.github.io/hello-english/) · [发音](https://cuihairu.github.io/hello-english/pronunciation) · [词根来源](https://cuihairu.github.io/hello-english/roots) · [发展历史](https://cuihairu.github.io/hello-english/history) · [历年真题](https://cuihairu.github.io/hello-english/exam/真题/真题来源核对)
+[在线阅读](https://cuihairu.github.io/hello-english/) · [知识点总纲](https://cuihairu.github.io/hello-english/knowledge) · [发音](https://cuihairu.github.io/hello-english/pronunciation) · [词根来源](https://cuihairu.github.io/hello-english/roots) · [发展历史](https://cuihairu.github.io/hello-english/history) · [历年真题](https://cuihairu.github.io/hello-english/exam/真题/真题来源核对)
 
 </div>
 
@@ -44,6 +44,7 @@
 | 发展史时间线：33 节点四条线索过滤 | `/timeline` | 已实现 |
 | 语法：体系地图、句型、从句、非谓语、虚拟 | `/grammar` | 已实现（关键例句点读） |
 | 时态：16 格矩阵 + 九大时态 | `/tense` | 已实现（每时态主例句点读） |
+| 知识点总纲：学习笔记调研收拢一页——核心概念、权威书籍、官方文档（带链接）、应用场景、常见坑 | `/knowledge` | 已实现（逐条交叉链接回原文，查无实据处如实标注） |
 | 专题：易混词、介词、词根家族、长难句、时态对比、发音难点、非谓语动词、比较结构、从句连接词、被动语态、条件与让步 | `/topic` | 已实现（11 篇） |
 | 关于本站：定位、受众、学习路径、更新节奏 | `/about` | 已实现 |
 | 考点分析（2013-2025 真题） | `/exam/*` | 已实现（词汇题样本 98 题；2019/2021/2024 等个别年份〔待补充〕未纳入统计） |

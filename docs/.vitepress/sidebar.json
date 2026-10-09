@@ -7,6 +7,10 @@
     "text": "学习笔记",
     "items": [
       {
+        "text": "知识点总纲",
+        "link": "/knowledge"
+      },
+      {
         "text": "发音",
         "link": "/pronunciation"
       },
