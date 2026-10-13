@@ -136,3 +136,19 @@ will 与 be going to 的分工：桌上空杯顺手说 **I will get** some water
 - [语法](/grammar)：时态之外的主干，讲句型、从句、非谓语、虚拟语气。
 - [高频语法与翻译](/exam/高频语法与翻译)：真题里时态考点的统计与翻译长句拆解。
 - [发音](/pronunciation)：例句里的连读弱读听不出？去发音页把 /ə/ 与重音练一练。
+
+## 参考资料
+
+- [Wikipedia · Grammatical tense](https://en.wikipedia.org/wiki/Grammatical_tense)
+- [Wikipedia · English grammar](https://en.wikipedia.org/wiki/English_grammar)
+
+<!-- BACKLINKS-AUTO -->
+## 相关页面
+
+- [about](about.md)
+- [Readme](/english/Readme.md)
+- [glossary](glossary.md)
+- [grammar](grammar.md)
+- [knowledge](knowledge.md)
+- [index](/topic/index.md)
+- [时态对比](/topic/时态对比.md)

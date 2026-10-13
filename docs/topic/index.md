@@ -19,3 +19,14 @@
 | [条件与让步](/topic/条件与让步) | if 之外的条件口子、although 两条铁律、despite 词性设坑与 while 三义 | [语法](/grammar)、[高频完形与短文完成](/exam/高频完形与短文完成) |
 
 选题沿站点内容自然延伸，新专题随批次增补。
+
+## 参考资料
+
+- [Wikipedia · English grammar](https://en.wikipedia.org/wiki/English_grammar)
+- [Wikipedia · Grammar](https://en.wikipedia.org/wiki/Grammar)
+
+<!-- BACKLINKS-AUTO -->
+## 相关页面
+
+- [about](/about.md)
+- [knowledge](/knowledge.md)

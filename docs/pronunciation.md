@@ -163,3 +163,24 @@
 - [词根来源](/roots)：ch 为什么在 chemistry 里读 /k/、-tion 从哪里来，构词的来历都有故事。
 - [发展历史](/history)：元音大推移、印刷术冻结拼法——拼读脱节的来龙去脉。
 - [发展史时间线](/timeline)：按年代看发音事件与词汇事件的交错。
+
+## 参考资料
+
+- [Wikipedia · Phonetics](https://en.wikipedia.org/wiki/Phonetics)
+- [Wikipedia · Phoneme](https://en.wikipedia.org/wiki/Phoneme)
+- [Wikipedia · International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)
+- [Wikipedia · Received Pronunciation](https://en.wikipedia.org/wiki/Received_Pronunciation)
+
+<!-- BACKLINKS-AUTO -->
+## 相关页面
+
+- [about](about.md)
+- [Readme](/english/Readme.md)
+- [glossary](glossary.md)
+- [grammar](grammar.md)
+- [history](history.md)
+- [knowledge](knowledge.md)
+- [roots](roots.md)
+- [tense](tense.md)
+- [index](/topic/index.md)
+- [发音难点](/topic/发音难点.md)

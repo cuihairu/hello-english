@@ -46,3 +46,16 @@ const eventsOf = (era) => TIMELINE.filter((e) => eraIndexOf(e.year) === ERAS.ind
     </ol>
   </template>
 </div>
+
+## 参考资料
+
+- [Wikipedia · English language](https://en.wikipedia.org/wiki/English_language)
+- [Wikipedia · Etymology](https://en.wikipedia.org/wiki/Etymology)
+
+<!-- BACKLINKS-AUTO -->
+## 相关页面
+
+- [Readme](/english/Readme.md)
+- [history](history.md)
+- [knowledge](knowledge.md)
+- [pronunciation](pronunciation.md)

@@ -139,3 +139,26 @@ wish 后的从句同样回退：I wish I **knew**（现在）/ I wish I **had kn
 - [时态](/tense)：动词专题里最大的那一块，16 格矩阵与九大时态详解。
 - [高频语法与翻译](/exam/高频语法与翻译)：真题里的语法考点统计与长难句拆解。
 - [发音](/pronunciation)：语法之外的另一半基本功，例句可点读。
+
+## 参考资料
+
+- [Wikipedia · Grammar](https://en.wikipedia.org/wiki/Grammar)
+- [Wikipedia · English grammar](https://en.wikipedia.org/wiki/English_grammar)
+- [Wikipedia · Syntax](https://en.wikipedia.org/wiki/Syntax)
+- [Wikipedia · Morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics))
+
+<!-- BACKLINKS-AUTO -->
+## 相关页面
+
+- [about](about.md)
+- [Readme](/english/Readme.md)
+- [glossary](glossary.md)
+- [knowledge](knowledge.md)
+- [tense](tense.md)
+- [index](/topic/index.md)
+- [介词](/topic/介词.md)
+- [从句连接词](/topic/从句连接词.md)
+- [条件与让步](/topic/条件与让步.md)
+- [被动语态](/topic/被动语态.md)
+- [长难句](/topic/长难句.md)
+- [非谓语动词](/topic/非谓语动词.md)

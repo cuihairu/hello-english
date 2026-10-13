@@ -55,3 +55,9 @@ features:
     link: /exam/真题/真题来源核对
     linkText: 刷真题
 ---
+
+## 参考资料
+
+- [Wikipedia · English language](https://en.wikipedia.org/wiki/English_language)
+- [Cambridge Dictionary](https://dictionary.cambridge.org/)
+- [Wiktionary](https://en.wiktionary.org/)

@@ -201,3 +201,22 @@ prae「在前」给了 pre-：predict（预先说）、prevent（提前赶到，
 - 来源故事是**记忆的挂钩**，不是词义的保证。部分词的现代义已偏离词源（如 pathetic 从「动人」滑到「寒碜」），先记常用义，故事作联想线索。
 - 同一词根的变体（duc/duct、vert/vers、mit/miss）读音变了、拼写跟着变，核心义不变。
 - 本页 30 个条目之外，[词根词缀速记](/exam/词根词缀)有完整的 27 词根 + 20 前缀 + 18 后缀拆词表，两页配合使用：那页管认词，这页管记牢。
+
+## 参考资料
+
+- [Wikipedia · Etymology](https://en.wikipedia.org/wiki/Etymology)
+- [Wikipedia · Morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics))
+- [Wiktionary](https://en.wiktionary.org/)
+
+<!-- BACKLINKS-AUTO -->
+## 相关页面
+
+- [about](about.md)
+- [Readme](/english/Readme.md)
+- [词根词缀](/exam/词根词缀.md)
+- [glossary](glossary.md)
+- [history](history.md)
+- [knowledge](knowledge.md)
+- [pronunciation](pronunciation.md)
+- [index](/topic/index.md)
+- [词根家族](/topic/词根家族.md)

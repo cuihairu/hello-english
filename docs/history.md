@@ -98,3 +98,19 @@
 - [发展史时间线](/timeline)：本页通史的交互版，33 个节点可按语音、词汇、规范、考试四条线索过滤。
 - [词根来源](/roots)：文艺复兴那一批拉丁希腊借词，构件层面的来源故事。
 - [发音](/pronunciation)：元音大推移为什么造成拼读脱节，落到 48 音标上的对照。
+
+## 参考资料
+
+- [Wikipedia · English language](https://en.wikipedia.org/wiki/English_language)
+- [Wikipedia · Etymology](https://en.wikipedia.org/wiki/Etymology)
+
+<!-- BACKLINKS-AUTO -->
+## 相关页面
+
+- [about](about.md)
+- [Readme](/english/Readme.md)
+- [glossary](glossary.md)
+- [knowledge](knowledge.md)
+- [pronunciation](pronunciation.md)
+- [roots](roots.md)
+- [timeline](timeline.md)

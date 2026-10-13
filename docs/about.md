@@ -29,3 +29,14 @@ Hello English 是一份英语学习笔记，整理自本人多年的学习与备
 ## 更新节奏
 
 个人整理，无固定周期。已收录内容的勘误优先于新增内容：错字、错析、错答案，改完即提交。新增内容按批次上线，最近一批（2026 年 10 月）补齐了发音点读、词根来源、发展历史、语法、时态、专题与本页。
+
+## 参考资料
+
+- [Wikipedia · Linguistics](https://en.wikipedia.org/wiki/Linguistics)
+- [Wikipedia · English language](https://en.wikipedia.org/wiki/English_language)
+
+<!-- BACKLINKS-AUTO -->
+## 相关页面
+
+- [学习笔记](/english/Readme)
+- [grammar](grammar.md)
