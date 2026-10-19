@@ -2,7 +2,7 @@
 
 先点几个试试：<SpeakButton word="hello" text="hello" />　<SpeakButton word="banana" text="banana" />　<SpeakButton kind="sentence" word="Good morning, how are you?" text="Good morning, how are you?" />
 
-本页按国内教材通行的 **48 音标体系**（20 个元音 + 28 个辅音，英式 RP 口音）梳理英语发音，每个音标、每个例词、每组易混音都可以点按出声。页面还配有重音与弱读、拼读规律两节，解释「为什么这个字母组合读这个音」。
+这份笔记采用国内教材通行的 **48 音标体系**（20 个元音 + 28 个辅音，英式 RP 口音）整理英语发音，每个音标、每个例词、每组易混音都可以点按出声。另外整理了重音与弱读、拼读规律，记录「为什么这个字母组合读这个音」。
 
 ## 声音从哪来
 

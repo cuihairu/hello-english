@@ -5,7 +5,7 @@ import sidebar from './sidebar.json' with { type: 'json' }
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Hello English',
-  description: '英语学习笔记：发音点读、词根来源、发展历史、语法与时态，附专题、考点分析与 2010-2025 历年真题',
+  description: '英语笔记与备考记录：发音点读、词根来源、发展历史、语法与时态，附专题、考点分析与 2010-2025 年真题',
   base: '/hello-english/',
   cleanUrls: true,
   lastUpdated: true,

@@ -13,7 +13,7 @@
   <img src="docs/public/badges/langs.svg" alt="langs" />
 </p>
 
-**English study notes**
+**English notes and personal exam records**
 
 [Read online](https://cuihairu.github.io/hello-english/) · [Knowledge map](https://cuihairu.github.io/hello-english/knowledge) · [Pronunciation](https://cuihairu.github.io/hello-english/pronunciation) · [Word roots](https://cuihairu.github.io/hello-english/roots) · [Language history](https://cuihairu.github.io/hello-english/history) · [Past papers](https://cuihairu.github.io/hello-english/exam/真题/真题来源核对)
 
@@ -21,13 +21,13 @@
 
 ---
 
-## Introduction
+## Project notes
 
-This project is a continuously maintained collection of English study notes. It starts from phonetic symbols, word roots, grammar and tenses, and extends to 1,600 years of the history of the English language. Exam-point analyses accumulated over years of exam preparation, together with the past papers from 2010 to 2025, are also included as reading and practice material. The site is built with [VitePress](https://vitepress.dev).
+This repository collects my English notes and exam-preparation records: phonetics, word roots, grammar, tenses, 1,600 years of English language history, exam-point analysis, and past papers from 2010 to 2025. The site is built with [VitePress](https://vitepress.dev).
 
-- **Study notes**: pronunciation (click-to-speak for words and example sentences), word roots, language history, history timeline, grammar, tenses
+- **Language notes**: pronunciation (click-to-speak for words and example sentences), word roots, language history, history timeline, grammar, tenses
 - **Topic pages**: confusable words, prepositions, word-root families, long and complex sentences, tense comparison, pronunciation difficulties, non-finite verbs, comparison structures, clause connectors, the passive voice, condition and concession — one type of problem collected on one page; see the [topic overview](https://cuihairu.github.io/hello-english/topic)
-- **Exam-point analysis**: statistics of high-frequency test points in vocabulary, oral communication, grammar and translation, writing, reading, and cloze and text completion, with quick-review editions and exam-point predictions
+- **Exam records**: statistics of high-frequency test points in vocabulary, oral communication, grammar and translation, writing, reading, and cloze and text completion, with quick-review editions and exam-point predictions
 - **Past papers**: 16 compiled exam papers from 2010 to 2025, with source-verification notes and reference answers
 
 ## Content and implementation status
@@ -49,7 +49,7 @@ This project is a continuously maintained collection of English study notes. It 
 | About the site: positioning, audience, content perspectives, update cadence | `/about` | Implemented |
 | Exam-point analysis (2010-2025 papers) | `/exam/*` | Implemented (148 vocabulary questions sampled, including same-type items from the 2010-2012 old-format papers; 2024 answers pending verification and not yet included) |
 | Exam time allocation: per-part pace, six checkpoints, time-value table | `/exam/考场时间分配` | Implemented |
-| Mock exam guide: paper selection by completeness, scoring sheet, review workflow | `/exam/模拟考试指南` | Implemented |
+| Mock exam notes: paper selection by completeness, scoring sheet, review workflow | `/exam/模拟考试指南` | Implemented |
 | Past papers 2010-2025, 16 in total | `/exam/真题/*` | Implemented (compiled editions; a few 2022 English texts [to be added], 2024 answers marked as pending verification, 2015 answers derived in-house pending verification; the 2015, 2018, 2021 and 2023 papers lack reference translations and model essays for Paper Two, marked on-page) |
 | Local search: full-text search with character-level Chinese tokenization | site-wide search box | Implemented (Latin text is tokenized by word and consecutive Chinese characters character by character, so a character inside a word can match body text) |
 | Site infrastructure: sitemap and robots, og/twitter share cards, Chinese 404 page | site-wide | Implemented (the build also runs an internal dead-link check) |

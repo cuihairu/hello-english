@@ -180,12 +180,12 @@ be 的一套时态形式 + 过去分词；不及物动词没有被动，get + do
 ### 托福（TOEFL）
 英语语言能力测试，考试结构可作本站备考口径的参照系。
 **出处**：[维基百科 · TOEFL](https://en.wikipedia.org/wiki/TOEFL)、[维基百科 · IELTS](https://en.wikipedia.org/wiki/IELTS)
-**相关页**：[exam/模拟考试指南](/exam/模拟考试指南)、[exam/2026年考点预测](/exam/2026年考点预测)
+**相关页**：[exam/模拟卷记录与复盘](/exam/模拟考试指南)、[exam/2026年考点预测](/exam/2026年考点预测)
 
 ### 雅思（IELTS）
 英语语言能力测试，与托福同为标准化英语能力的参照系。
 **出处**：[维基百科 · IELTS](https://en.wikipedia.org/wiki/IELTS)、[维基百科 · TOEFL](https://en.wikipedia.org/wiki/TOEFL)
-**相关页**：[exam/模拟考试指南](/exam/模拟考试指南)、[exam/考场时间分配](/exam/考场时间分配)
+**相关页**：[exam/模拟卷记录与复盘](/exam/模拟考试指南)、[exam/考场时间分配](/exam/考场时间分配)
 
 ### 完形填空（Cloze test）
 在文本中留空供补全的题型，测词汇与语境推断的联合能力。
