@@ -46,7 +46,7 @@ This project is a continuously maintained collection of English study notes. It 
 | Tenses: 16-cell matrix + nine major tenses | `/tense` | Implemented (the main example of each tense is click-to-speak) |
 | Knowledge map: study-note research consolidated in one page — core concepts, authoritative books, official docs with links, usage scenarios, common pitfalls | `/knowledge` | Implemented (each entry cross-linked back to its source page; unverifiable items marked as such) |
 | Topic pages: confusable words, prepositions, word-root families, long and complex sentences, tense comparison, pronunciation difficulties, non-finite verbs, comparison structures, clause connectors, the passive voice, condition and concession | `/topic` | Implemented (11 pages) |
-| About the site: positioning, audience, learning paths, update cadence | `/about` | Implemented |
+| About the site: positioning, audience, content perspectives, update cadence | `/about` | Implemented |
 | Exam-point analysis (2010-2025 papers) | `/exam/*` | Implemented (148 vocabulary questions sampled, including same-type items from the 2010-2012 old-format papers; 2024 answers pending verification and not yet included) |
 | Exam time allocation: per-part pace, six checkpoints, time-value table | `/exam/考场时间分配` | Implemented |
 | Mock exam guide: paper selection by completeness, scoring sheet, review workflow | `/exam/模拟考试指南` | Implemented |
@@ -84,19 +84,23 @@ npm run docs:preview  # preview the built site locally
 ```
 docs/
 ├── .vitepress/        # VitePress config and custom theme (includes the SpeakButton component)
-├── english/           # project introduction
+├── english/           # English site introduction
 ├── exam/              # exam-point analysis, quick-review editions, predictions
 │   └── 真题/          # past papers 2010-2025
 ├── public/            # logo and favicon
-├── topic/             # topic pages (confusable words, prepositions, word-root families, long sentences)
+├── topic/             # 11 topic pages and their overview
+├── review/            # structure audit reports
 ├── index.md           # site home page
 ├── about.md           # about the site
+├── glossary.md        # terminology reference
+├── knowledge.md       # research and reference notes
 ├── pronunciation.md   # pronunciation (phonemes · vowels and consonants · confusable sounds, click-to-speak)
 ├── roots.md           # word roots
 ├── history.md         # language history
 ├── timeline.md        # history timeline (interactive, 33 nodes)
 ├── grammar.md         # grammar
-└── tense.md           # tenses
+├── tense.md           # tenses
+└── SUMMARY.md         # mdbook compatibility note; sidebar.json is authoritative
 ```
 
 ## License

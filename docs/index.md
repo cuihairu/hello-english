@@ -15,27 +15,27 @@ hero:
 
 features:
   - title: 发音
-    details: 48 音标逐个点读出声：单词优先词典真人音频，接口不在线时浏览器语音合成兜底，离线也有声；易混音配最小对立对。
+    details: 48 音标与最小对立对的个人整理；例词支持点读，单词优先词典真人音频，接口不在线时浏览器语音合成兜底。
     link: /pronunciation
-    linkText: 跟着读
+    linkText: 发音笔记
   - title: 词根来源
-    details: 30 个常见词根词缀，每个讲一段来源故事：从拉丁希腊的原本义，走到今天的常用词。
+    details: 30 个常见词根词缀的来源故事，从拉丁、希腊原义追到现代英语词汇。
     link: /roots
-    linkText: 拆词源
+    linkText: 词源笔记
   - title: 发展历史
     details: 从 449 年登岛到全球通用语：古英语、中古英语、早期现代英语四段通史，关键借词事件按年代落位。
     link: /history
-    linkText: 通读全史
+    linkText: 历史笔记
   - title: 发展史时间线
-    details: 33 个节点串起 449 至今的英语语言史，按语音、词汇、规范、考试四条线索过滤，点开看每个节点的来由。
+    details: 33 个节点记录 449 年至今的英语语言史，按语音、词汇、规范、考试四条线索浏览。
     link: /timeline
     linkText: 看时间线
   - title: 语法
-    details: 先给体系地图，再逐块拆五大句型、三大从句、非谓语、虚拟语气的核心逻辑与易错点，关键例句可点读。
+    details: 个人整理的语法体系地图，涵盖五大句型、三大从句、非谓语与虚拟语气；关键例句可点读。
     link: /grammar
     linkText: 看地图
   - title: 时态
-    details: 时间 × 体的 16 格全景矩阵，九大常用时态逐个过：结构、标志词、例句点读与易错对比。
+    details: 时间 × 体的 16 格矩阵与九大常用时态，整理结构、标志词、例句和易错对比。
     link: /tense
     linkText: 理线索
   - title: 专题
@@ -43,17 +43,17 @@ features:
     link: /topic
     linkText: 看专题
   - title: 考点分析
-    details: 基于 2013-2025 年真题统计各题型高频考点与投入产出比（词汇题另含 2010-2012 旧卷同型题），先抓大头再补短板。
+    details: 基于 2013-2025 年真题整理各题型高频考点与投入产出比（词汇题另含 2010-2012 旧卷同型题）。
     link: /exam/高频考点分析
     linkText: 查看总览
   - title: 高频词汇
     details: 148 道已核实词汇题的同义替换总表、短语规定用法与高频语义场，配套速背版。
     link: /exam/高频词汇
-    linkText: 背词汇
+    linkText: 词汇整理
   - title: 历年真题
     details: 2010-2025 年共 16 份整理版真题，附来源核对说明、参考答案与推导答案标注。
     link: /exam/真题/真题来源核对
-    linkText: 刷真题
+    linkText: 真题整理
 ---
 
 ## 参考资料
