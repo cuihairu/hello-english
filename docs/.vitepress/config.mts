@@ -65,8 +65,7 @@ export default defineConfig({
       { text: '关于', link: '/about' }
     ],
 
-    // 6 个顶层条目：入口页、学习笔记、专题、考点分析、历年真题（2010-2025）、关于。
-    // 早期由 mdbook SUMMARY.md 结构映射而来，学习笔记组为手工扩展
+    // sidebar.json 是站点侧栏唯一权威源；docs/SUMMARY.md 仅保留 mdbook 兼容说明。
     sidebar: sidebar as never,
 
     socialLinks: [
