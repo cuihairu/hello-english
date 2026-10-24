@@ -1,40 +1,34 @@
-# 关于本站
+# About this site
 
-Hello English 收录我的英语笔记和备考记录，也记下了把这些材料整理成可检索、可点读站点的开发过程。站点用开源静态站点生成器 [VitePress](https://vitepress.dev) 构建，托管在 GitHub Pages。全部内容在 [GitHub 仓库](https://github.com/cuihairu/hello-english)公开，整理过程可查提交历史。
+Hello English collects my English notes and exam records, and it also records the process of turning that material into a searchable, listenable site. The site is built with the open-source static site generator [VitePress](https://vitepress.dev) and hosted on GitHub Pages. Everything lives in the public [GitHub repository](https://github.com/cuihairu/hello-english); the commit history shows how it was assembled.
 
-## 站内记录
+The site is bilingual. English pages live at the root; the full Chinese edition — everything that has not been translated yet — lives under `/zh/`, and the header switcher moves between the two.
 
-站内内容分三块：
+## What is on the site
 
-| 板块 | 内容 | 规模 |
+| Section | Content | Scale |
 | --- | --- | --- |
-| [学习笔记](/pronunciation) | 发音（点读）、词根来源、发展历史、时间线、语法、时态 | 48 音标 · 30 条词根词缀 · 33 节点 · 16 格时态矩阵 |
-| [专题](/topic/) | 按主题组织的深挖页：易混词、介词、词根家族、长难句、时态对比、发音难点、非谓语动词、比较结构、从句连接词、被动语态、条件与让步 | 11 篇 |
-| [备考资料](/exam/高频考点分析) | 考点统计、速背版、考点预测、历年真题 | 2010-2025 共 16 份真题 · 148 道已核实词汇题（含 2010-2012 旧卷同型题） |
+| [Study notes](/grammar) | Pronunciation (with audio), word roots, history, timeline, grammar, tenses | 48 phonemes · 30 roots and affixes · 33 timeline nodes · a 16-cell tense matrix |
+| [Topics](/zh/topic/) | Deep dives organized by problem type: confusable words, prepositions, root families, long hard sentences, tense contrasts, pronunciation pitfalls, non-finite verbs, comparatives, clause connectors, the passive, conditionals and concessives | 11 pages |
+| [Exam material](/zh/exam/高频考点分析) | Point-by-point statistics, quick-memorization sheets, a prediction for the 2026 paper, and the past papers | 16 papers from 2010-2025 · 148 verified vocabulary items (including same-type items from the pre-2013 papers) |
 
-两处如实说明：真题页面由公开回忆版与 PDF 转录整理而来，**并非官方发布版本**；缺损内容与推导答案有统一标注，口径见[真题来源核对](/exam/真题/真题来源核对)。
+Two caveats, stated plainly: the past-paper pages were assembled from publicly circulated recollections and PDF transcriptions, **not** from an official release; missing content and reconstructed answers carry a consistent marking system, documented in [the paper source notes](/zh/exam/真题/真题来源核对).
 
-## 我记录的内容
+## What I record
 
-- **备考记录**：站内真题是同等学力申硕英语统考卷（口语交际、词汇、阅读、完形、短文完成、翻译、写作），2013 年题型改革前后的卷面差异见[考试结构说明](/english/Readme#考试结构)。
-- **语言与构词**：发音、词根、语法、时态各页收录我整理的概念、例句与理解。
-- **对语言来历感兴趣的人**：[发展历史](/history)记录一千六百年的演变，[词根来源](/roots)讲每个构件从哪种语言来、原本什么意思。
+- **Exam records.** The papers here are the English paper of China's同等学力申硕 graduate-study entrance exam (spoken communication, vocabulary, reading, cloze, short-text completion, translation and writing). The [exam structure notes](/zh/english/Readme#考试结构) document how the paper changed in 2013.
+- **Language and word formation.** The pronunciation, roots, grammar and tense pages hold the concepts, examples and interpretations I worked out myself.
+- **For anyone curious about where English comes from.** [History](/history) tracks sixteen centuries of change; [word roots](/zh/roots) explains which language each part of a word came from and what it meant there.
 
-## 内容怎么整理
+## How the content was put together
 
-这里收录概念整理、个人理解、语言现象专题，以及真题、题型统计和备考经验。页面按问题和材料互相链接；这些是我逐步整理的记录。
+This site holds concept notes, personal interpretation, topical studies of language phenomena, and past papers with item-type statistics and exam strategy. Pages link to each other by the questions and material they share; it is a record built up incrementally.
 
-## 更新节奏
+## Update cadence
 
-个人整理，无固定周期。已收录内容的勘误优先于新增内容：错字、错析、错答案，改完即提交。新增内容按批次上线，最近一批（2026 年 10 月）补齐了发音点读、词根来源、发展历史、语法、时态、专题与本页。
+A personal project with no fixed schedule. Fixing what is already published outranks adding new material: a wrong character, a wrong analysis, a wrong answer gets corrected and committed as soon as it is found. New material ships in batches; the latest batch (October 2026) added pronunciation audio, word roots, history, grammar, tenses and the topic pages.
 
-## 参考资料
+## References
 
 - [Wikipedia · Linguistics](https://en.wikipedia.org/wiki/Linguistics)
 - [Wikipedia · English language](https://en.wikipedia.org/wiki/English_language)
-
-<!-- BACKLINKS-AUTO -->
-## 相关页面
-
-- [学习笔记](/english/Readme)
-- [grammar](grammar.md)

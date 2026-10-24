@@ -1,11 +1,12 @@
 import { defineConfig } from 'vitepress'
 import sidebar from './sidebar.json' with { type: 'json' }
+import sidebarZh from './sidebar.zh.json' with { type: 'json' }
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: 'zh-CN',
+  lang: 'en-US',
   title: 'Hello English',
-  description: '英语笔记与备考记录：发音点读、词根来源、发展历史、语法与时态，附专题、考点分析与 2010-2025 年真题',
+  description: 'English learning notes and exam records: pronunciation, roots, history, grammar, tenses, topic notes, and past papers from 2010 to 2025',
   base: '/hello-english/',
   cleanUrls: true,
   lastUpdated: true,
@@ -42,31 +43,76 @@ export default defineConfig({
     ]
   },
 
+  // 语言切换器的唯一数据源。VitePress 2.x 读 site.locales（顶层），
+  // 不是 themeConfig.locales；每个 locale 覆盖自己的 nav / sidebar / UI 文案。
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en-US',
+      description: 'English learning notes and exam records: pronunciation, roots, history, grammar, tenses, topic notes, and past papers from 2010 to 2025',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/' },
+          {
+            text: 'Learning Notes',
+            items: [
+              { text: 'Grammar', link: '/grammar' },
+              { text: 'Tenses', link: '/tense' },
+              { text: 'History', link: '/history' }
+            ]
+          },
+          { text: 'About', link: '/about' }
+        ],
+        sidebar: sidebar as never
+      }
+    },
+    zh: {
+      label: '简体中文',
+      lang: 'zh-CN',
+      link: '/zh/',
+      description: '英语笔记与备考记录：发音点读、词根来源、发展历史、语法与时态，附专题、考点分析与 2010-2025 年真题',
+      themeConfig: {
+        nav: [
+          { text: '首页', link: '/zh/' },
+          {
+            text: '学习笔记',
+            items: [
+              { text: '发音', link: '/zh/pronunciation' },
+              { text: '词根来源', link: '/zh/roots' },
+              { text: '发展历史', link: '/zh/history' },
+              { text: '发展史时间线', link: '/zh/timeline' },
+              { text: '语法', link: '/zh/grammar' },
+              { text: '时态', link: '/zh/tense' }
+            ]
+          },
+          { text: '专题', link: '/zh/topic/' },
+          { text: '考点分析', link: '/zh/exam/高频考点分析' },
+          { text: '历年真题', link: '/zh/exam/真题/真题来源核对' },
+          { text: '关于', link: '/zh/about' }
+        ],
+        sidebar: sidebarZh as never,
+        outline: { label: '本页内容', level: [2, 3] },
+        docFooter: { prev: '上一页', next: '下一页' },
+        lastUpdated: { text: '最后更新' },
+        returnToTopLabel: '回到顶部',
+        sidebarMenuLabel: '菜单',
+        darkModeSwitchLabel: '主题',
+        lightModeSwitchTitle: '切换到浅色模式',
+        darkModeSwitchTitle: '切换到深色模式',
+        editLink: { text: '在 GitHub 上编辑此页' }
+      }
+    }
+  },
+
   themeConfig: {
     logo: '/logo.svg',
     siteTitle: 'Hello English',
 
-    nav: [
-      { text: '首页', link: '/' },
-      {
-        text: '学习笔记',
-        items: [
-          { text: '发音', link: '/pronunciation' },
-          { text: '词根来源', link: '/roots' },
-          { text: '发展历史', link: '/history' },
-          { text: '发展史时间线', link: '/timeline' },
-          { text: '语法', link: '/grammar' },
-          { text: '时态', link: '/tense' }
-        ]
-      },
-      { text: '专题', link: '/topic/' },
-      { text: '考点分析', link: '/exam/高频考点分析' },
-      { text: '历年真题', link: '/exam/真题/真题来源核对' },
-      { text: '关于', link: '/about' }
-    ],
-
-    // sidebar.json 是站点侧栏唯一权威源；docs/SUMMARY.md 仅保留 mdbook 兼容说明。
-    sidebar: sidebar as never,
+    // 语言切换器默认把当前页路径改写进目标语言（linkToCorrespondingPage 写死在
+    // VPNavBarExtra.vue 里），英文页还没翻完时会指向不存在的页 → 404。
+    // 增量翻译阶段关掉：切换落到目标语言首页，不产生死链。
+    // 全部页面都译完后删掉这一行即可恢复「切语言留在同页」。
+    i18nRouting: false,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cuihairu/hello-english' }
@@ -74,7 +120,7 @@ export default defineConfig({
 
     editLink: {
       pattern: 'https://github.com/cuihairu/hello-english/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页'
+      text: 'Edit this page on GitHub'
     },
 
     footer: {
@@ -85,6 +131,27 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
+        // 搜索框文案按 locale 取；root 走 translations，zh 走 locales.zh
+        locales: {
+          zh: {
+            translations: {
+              button: { buttonText: '搜索文档', buttonAriaLabel: '搜索' },
+              modal: {
+                noResultsText: '未找到结果',
+                resetButtonTitle: '清除搜索条件',
+                footer: { selectText: '选择', navigateText: '导航', closeText: '关闭' }
+              }
+            }
+          }
+        },
+        translations: {
+          button: { buttonText: 'Search docs', buttonAriaLabel: 'Search' },
+          modal: {
+            noResultsText: 'No results found',
+            resetButtonTitle: 'Clear search query',
+            footer: { selectText: 'Select', navigateText: 'Navigate', closeText: 'Close' }
+          }
+        },
         miniSearch: {
           options: {
             // minisearch 默认按空白/标点切词，中文整段成单个 token，词中字搜不到；
@@ -95,37 +162,9 @@ export default defineConfig({
               )
             }
           }
-        },
-        translations: {
-          button: { buttonText: '搜索文档', buttonAriaLabel: '搜索' },
-          modal: {
-            noResultsText: '没有找到结果',
-            resetButtonTitle: '清除查询条件',
-            footer: { selectText: '选择', navigateText: '切换', closeText: '关闭' }
-          }
         }
       }
-    },
-
-    outline: {
-      label: '页面导航',
-      level: [2, 3]
-    },
-
-    docFooter: {
-      prev: '上一篇',
-      next: '下一篇'
-    },
-
-    lastUpdated: {
-      text: '最后更新'
-    },
-
-    returnToTopLabel: '回到顶部',
-    sidebarMenuLabel: '菜单',
-    darkModeSwitchLabel: '外观',
-    lightModeSwitchTitle: '切换到浅色模式',
-    darkModeSwitchTitle: '切换到深色模式'
+    }
   },
 
   markdown: {

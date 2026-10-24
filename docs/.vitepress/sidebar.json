@@ -1,232 +1,27 @@
 [
   {
     "text": "Hello English",
-    "link": "/english/Readme"
+    "link": "/"
   },
   {
-    "text": "语言笔记",
+    "text": "Learning Notes",
     "items": [
       {
-        "text": "知识点总纲",
-        "link": "/knowledge"
-      },
-      {
-        "text": "发音",
-        "link": "/pronunciation"
-      },
-      {
-        "text": "词根来源",
-        "link": "/roots"
-      },
-      {
-        "text": "发展历史",
-        "link": "/history"
-      },
-      {
-        "text": "发展史时间线",
-        "link": "/timeline"
-      },
-      {
-        "text": "语法",
+        "text": "Grammar",
         "link": "/grammar"
       },
       {
-        "text": "时态",
+        "text": "Tenses",
         "link": "/tense"
+      },
+      {
+        "text": "History",
+        "link": "/history"
       }
     ]
   },
   {
-    "text": "专题",
-    "items": [
-      {
-        "text": "总览",
-        "link": "/topic/"
-      },
-      {
-        "text": "易混词",
-        "link": "/topic/易混词"
-      },
-      {
-        "text": "介词",
-        "link": "/topic/介词"
-      },
-      {
-        "text": "词根家族",
-        "link": "/topic/词根家族"
-      },
-      {
-        "text": "长难句",
-        "link": "/topic/长难句"
-      },
-      {
-        "text": "时态对比",
-        "link": "/topic/时态对比"
-      },
-      {
-        "text": "发音难点",
-        "link": "/topic/发音难点"
-      },
-      {
-        "text": "非谓语动词",
-        "link": "/topic/非谓语动词"
-      },
-      {
-        "text": "比较结构",
-        "link": "/topic/比较结构"
-      },
-      {
-        "text": "从句连接词",
-        "link": "/topic/从句连接词"
-      },
-      {
-        "text": "被动语态",
-        "link": "/topic/被动语态"
-      },
-      {
-        "text": "条件与让步",
-        "link": "/topic/条件与让步"
-      }
-    ]
-  },
-  {
-    "text": "考点分析",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "总览",
-        "link": "/exam/高频考点分析"
-      },
-      {
-        "text": "高频词汇",
-        "link": "/exam/高频词汇"
-      },
-      {
-        "text": "词根词缀速记",
-        "link": "/exam/词根词缀"
-      },
-      {
-        "text": "词汇速背版",
-        "link": "/exam/词汇速背版"
-      },
-      {
-        "text": "高频语法与翻译",
-        "link": "/exam/高频语法与翻译"
-      },
-      {
-        "text": "高频写作",
-        "link": "/exam/高频写作"
-      },
-      {
-        "text": "写作速背版",
-        "link": "/exam/写作速背版"
-      },
-      {
-        "text": "高频阅读",
-        "link": "/exam/高频阅读"
-      },
-      {
-        "text": "高频口语交际",
-        "link": "/exam/高频口语交际"
-      },
-      {
-        "text": "高频完形与短文完成",
-        "link": "/exam/高频完形与短文完成"
-      },
-      {
-        "text": "2026 年考点预测",
-        "link": "/exam/2026年考点预测"
-      },
-      {
-        "text": "考场时间分配",
-        "link": "/exam/考场时间分配"
-      },
-      {
-        "text": "模拟卷记录与复盘",
-        "link": "/exam/模拟卷记录与复盘"
-      }
-    ]
-  },
-  {
-    "text": "历年真题",
-    "collapsed": true,
-    "items": [
-      {
-        "text": "真题来源核对",
-        "link": "/exam/真题/真题来源核对"
-      },
-      {
-        "text": "2025 年真题",
-        "link": "/exam/真题/2025年同等学力英语真题"
-      },
-      {
-        "text": "2024 年真题",
-        "link": "/exam/真题/2024年同等学力英语真题"
-      },
-      {
-        "text": "2023 年真题",
-        "link": "/exam/真题/2023年同等学力英语真题"
-      },
-      {
-        "text": "2022 年真题",
-        "link": "/exam/真题/2022年同等学力英语真题"
-      },
-      {
-        "text": "2021 年真题",
-        "link": "/exam/真题/2021年同等学力英语真题"
-      },
-      {
-        "text": "2020 年真题",
-        "link": "/exam/真题/2020年同等学力英语真题"
-      },
-      {
-        "text": "2019 年真题",
-        "link": "/exam/真题/2019年同等学力英语真题"
-      },
-      {
-        "text": "2018 年真题",
-        "link": "/exam/真题/2018年同等学力英语真题"
-      },
-      {
-        "text": "2017 年真题",
-        "link": "/exam/真题/2017年同等学力英语真题"
-      },
-      {
-        "text": "2016 年真题",
-        "link": "/exam/真题/2016年同等学力英语真题"
-      },
-      {
-        "text": "2015 年真题",
-        "link": "/exam/真题/2015年同等学力英语真题"
-      },
-      {
-        "text": "2014 年真题",
-        "link": "/exam/真题/2014年同等学力英语真题"
-      },
-      {
-        "text": "2013 年真题",
-        "link": "/exam/真题/2013年同等学力英语真题"
-      },
-      {
-        "text": "2012 年真题",
-        "link": "/exam/真题/2012年同等学力英语真题"
-      },
-      {
-        "text": "2011 年真题",
-        "link": "/exam/真题/2011年同等学力英语真题"
-      },
-      {
-        "text": "2010 年真题",
-        "link": "/exam/真题/2010年同等学力英语真题"
-      }
-    ]
-  },
-  {
-    "text": "术语表",
-    "link": "/glossary"
-  },
-  {
-    "text": "关于本站",
+    "text": "About",
     "link": "/about"
   }
 ]

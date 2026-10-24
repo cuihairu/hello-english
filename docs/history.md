@@ -1,116 +1,105 @@
-# 发展历史
+# History
 
-英语的一段实话：今天的英语词典里，法语来源的词约占 28%、拉丁来源约 28%、希腊来源约 6%，日耳曼本族来源约 25%（Finkenstaedt & Wolff，1973 的经典统计）。**看起来「最英语」的这门语言，词典里四分之三的词是借来的。** 我按年代整理这些词如何一层层进入英语：449 年登岛的日耳曼底座、北欧海盗与诺曼征服的两次大输入、文艺复兴的拉丁希腊潮，再到帝国时代全世界的词汇回流。
+A straight fact about English: in today's dictionary about 28% of the words come from French, about 28% from Latin, about 6% from Greek, and about 25% are native Germanic (Finkenstaedt & Wolff, the classic 1973 count). **The language that looks "most English" has three quarters of its vocabulary borrowed.** I have sorted through the years how those words entered, layer by layer: the Germanic base laid down in 449, the two big imports from the Norse and the Norman conquest, the Renaissance Latin and Greek wave, and finally the imperial-era reflux of words from everywhere.
 
-偏好看交互时间线的读者，可以直接去[发展史时间线](/timeline)，33 个节点与本页通史一一对应。
+If you prefer the interactive view, go straight to the [timeline](/zh/timeline) — its 33 nodes correspond to this general history one to one.
 
-## 古英语（449-1066）：登岛与定名
+## Old English (449-1066): landing and naming
 
-公元 449 年，比德在《英吉利教会史》里记下三支日耳曼部族渡海登陆不列颠：盎格鲁人（Angles）、撒克逊人（Saxons）、朱特人（Jutes）。**English 一词来自 Angles**：他们的语言叫 Englisc，住的地方叫 Engla land，后来写成 England。这块土地此前的凯尔特居民留下了少量底层词（如 bin、ass、bannock），凯尔特语对英语词汇的整体影响出乎意料地小。
+In 449 Bede's *Ecclesiastical History of the English People* records three Germanic tribes crossing the sea into Britain: the Angles, the Saxons and the Jutes. **The word *English* comes from the Angles**: their language was called *Englisc* and their land *Engla land*, later written as England. Britain's earlier Celtic inhabitants left a small stratum of loanwords (bin, ass, bannock); Celtic's overall effect on English vocabulary is surprisingly small.
 
-597 年奥古斯丁到坎特伯雷传教，基督教化带来了第一波拉丁借词：school、street（拉丁 strata via「铺石的路」）、candle、altar、priest、paper，全是宗教、教育与建筑用词，走的还是教会渠道。
+In 597 Augustine reached Canterbury to preach; Christianization brought the first wave of Latin loans: *school*, *street* (from Latin *strata via*, "the paved way"), *candle*, *altar*, *priest*, *paper*. All religious, educational and architectural terms, all arriving through the church.
 
-古英语是一种屈折语：名词有格的变化，动词变位复杂，词序比今天自由得多。它读起来完全是另一门语言，《贝奥武甫》（约 8 世纪）开篇「Hwæt! Wē Gār-Dena in geārdagum」——今天的英语母语者不查词典一个词也认不全。今日英语里最常用的 100 个词（the、and、I、to……）几乎全是古英语传下来的**本族词**，它们撑起了日常口语的大半。
+Old English was inflected: nouns changed for case, verb conjugation was intricate, and word order was far freer than it is today. It reads like a completely different language. The opening of *Beowulf* (circa the 8th century), "Hwæt! Wē Gār-Dena in geārdagum", would be unknown to a modern English speaker word for word without a dictionary. Yet nearly all of the 100 most common English words today (*the*, *and*, *I*, *to* …) are native words handed down from Old English, and they carry most of everyday speech.
 
-## 北欧时期（793-1066）：海盗与代词换血
+## The North Sea period (793-1066): Vikings and a wholesale pronoun swap
 
-793 年林迪斯法恩修道院遭劫，维京时代开场。9 世纪丹麦人定居英格兰东部（丹麦法区 Danelaw），古诺斯语（Old Norse）与古英语这两支亲缘很近的日耳曼语言，在同一片土地上并用了两百多年。
+In 793 the monastery of Lindisfarne was raided and the Viking Age began. In the 9th century the Danes settled the east of England (the Danelaw), and Old Norse and Old English — two closely related Germanic tongues — were used side by side on the same land for over two hundred years.
 
-这一期借词有几个辨认特征：
+Loans from this period have identifiable signatures:
 
-- **sk- 开头**：sky、skin、skirt、skill。古英语对应的 sc- 已经软化成 sh，所以 shirt 与 skirt 是同一个词的两次来源（本族 scyrte 与诺斯 skyrta），一对「同源双胞胎」。
-- **g、k 硬读**：give、get、egg——对照同源的双 y- 形式（如 gild/yield 一族）。
-- **日常词成批进入**：law、husband（古诺斯 húsbóndi，「住在房子里的人」→ 丈夫/当家）、window（vindauga，「风之眼」）、same、both、wrong、call、take。
+- **Initial *sk-***: sky, skin, skirt, skill. Where Old Norse had *sk-*, Old English's *sc-* had already softened to *sh*, so *shirt* and *skirt* are two separate imports of the same word (native *scyrte* and Norse *skyrta*) — a pair of etymological twins.
+- **Hard *g* and *k***: give, get, egg — compare the twin *y-* forms, such as the *gild* / *yield* pair.
+- **Whole sets of everyday words**: law, husband (Old Norse *húsbóndi*, "the one who lives in the house" → husband, head of the household), window (*vindauga*, "the eye of the wind"), same, both, wrong, call, take.
 
-最要紧的事件是**代词换血**：古英语的 they（hīe）、them（him）、their（hiera）与同句的 she、them 音近易混，英格兰东部干脆整套借用了古诺斯语的 þeir/þeim/þeira。**一整组核心代词被外来语替换**，这在语言史上是极罕见的事。今天你说 they 的时候，吐出的是维京人的词。
+The most consequential event was the **pronoun swap**: Old English *they* (hīe), *them* (him) and *their* (hiera) sounded too close to *she* / *them* in the same sentence, so the east of England simply borrowed the Old Norse set þeir / þeim / þeira in full. **An entire core pronoun set was replaced by a foreign language** — an extraordinarily rare thing in the history of language. When you say *they* today, the word you are speaking is the Vikings'.
 
-## 中古英语（1066-1500）：诺曼征服与三层词汇
+## Middle English (1066-1500): the Norman conquest and three layers of vocabulary
 
-1066 年黑斯廷斯战役，诺曼底公爵威廉加冕英格兰王。此后约三百年，英格兰的宫廷、法庭、庄园上层的语言是诺曼法语，学校用拉丁语，英语退到民间。等英语在 14 世纪重新成为官方语言（1362 年议会法令规定法庭改用英语），它已经吸饱了法语：**约一万个法语词**在中古英语期进入英语，集中在政权、法律、军事、时尚、餐饮这些「上层生活」领域。
+After Hastings in 1066, William of Normandy was crowned king of England. For about three centuries the language of the court, the courts of law and the upper levels of manorial life was Norman French; schools used Latin; English retreated to the folk. By the time English became the official language again in the 14th century (a 1362 statute ordered the courts of law to switch to English), it had absorbed French all over the place: **roughly ten thousand French words** entered English during the Middle English period, concentrated in "upper life" — government, law, military affairs, fashion and food.
 
-餐饮词最直观：活着的动物是盎格鲁-撒克逊农民养的，端上诺曼餐桌就换了法语名字：
+Food words show it most directly. The living animal was raised by an Anglo-Saxon farmer; once it reached the Norman table it had a French name:
 
-| 活物（本族词） | 上桌（法语词） |
+| Living animal (native) | On the table (French) |
 | --- | --- |
-| cow 牛 | beef 牛肉 |
-| sheep 羊 | mutton 羊肉 |
-| pig 猪 | pork 猪肉 |
-| calf 小牛 | veal 小牛肉 |
+| cow | beef |
+| sheep | mutton |
+| pig | pork |
+| calf | veal |
 
-同一语义场也出现了**三层词**：本族词、法语词、拉丁词各占一档，意思相近而语域不同——kingly（本族）/ royal（法语）/ regal（拉丁）；ask（本族）/ question（法语）/ interrogate（拉丁）。第三档至今听上去最「书面」。法律词 court、judge、jury、evidence、parliament 与政府词 government、tax 也是这一期进入。
+The same semantic fields developed **three layers**: a native word, a French word and a Latin word, close in meaning but different in register — *kingly* (native) / *royal* (French) / *regal* (Latin); *ask* (native) / *question* (French) / *interrogate* (Latin). The third layer still sounds the most "written" today. Legal words like *court*, *judge*, *jury*, *evidence*, *parliament* and governmental words like *government* and *tax* arrived in this same period.
 
-1387 年前后乔叟写《坎特伯雷故事集》，伦敦方言写的韵文叙事证明了英语的文学能力；1476 年卡克斯顿（Caxton）把印刷机带回威斯敏斯特，第一本英语印书出版。印刷带来一个影响深远的结果：**拼法被冻结了**，读音却还在继续变。拼写与读音的分家自此定局（见下文[元音大推移与印刷术](#元音大推移与印刷术-1400-1700-嘴变了-拼法没跟上)）。顺便一提，could 词里那个不发音的 l，就是印刷时代仿照 should 类推加上的。
+Chaucer wrote the *Canterbury Tales* around 1387 in London dialect, and a rhyming narrative in the vernacular proved English's literary capability; in 1476 Caxton brought the printing press to Westminster and the first English book went to press. Print brought a consequence that still runs through the language: **spelling was frozen** while pronunciation kept moving. From that point the divorce between spelling and sound was settled (see below, [The Great Vowel Shift and print](#the-great-vowel-shift-and-print-1400-1700)). A side note: the silent *l* in *could* was added by analogy with *should* in the age of print.
 
-## 元音大推移与印刷术（1400-1700）：嘴变了，拼法没跟上
+## The Great Vowel Shift and print (1400-1700)
 
-约 1400-1700 年间，英语长元音发生了一次整体上移，史称**元音大推移**（Great Vowel Shift）：/aː/ 升到 /eː/ 再升 /eɪ/，/eː/ 升到 /iː/，/oː/ 升到 /uː/……name 不再读「纳-梅」，mouse 不再读「莫斯」。拼法在 1476 年前后已被印刷冻结，于是**拼写记下的是乔叟时代的音，嘴上说的是莎士比亚时代的音**——英语拼读不一致的总根源就在这里。
+Between roughly 1400 and 1700 the English long vowels rose across the board — the **Great Vowel Shift**: /aː/ rose to /eː/ and on to /eɪ/, /eː/ rose to /iː/, /oː/ rose to /uː/, and so on. *Name* stopped being "nah-may" and *mouse* stopped being "moose". Spelling had already been frozen by print around 1476, so **the spelling records Chaucer's sounds while the mouth speaks Shakespeare's** — this is the whole root of English's spelling-pronunciation mismatch.
 
-这件事留下的痕迹今天随处可证：sheep 与 ship 的长短对立（见[发音页](/pronunciation)易混音表）、magic e 规则（hat/hate）、以及英式美式元音的系统性差异，都是同一场推移在不同方言里的余波。
+The traces are still everywhere: the long/short opposition in *sheep* and *ship* (see the near-miss table on the [pronunciation page](/zh/pronunciation)), the magic-e rule (*hat* / *hate*), and the systematic difference between British and American vowels are all aftershocks of the same shift in different dialects.
 
-同期词汇的两大事件：
+Two vocabulary events of the same era:
 
-- **文艺复兴借词潮（16 世纪）**：学者们从希腊拉丁文直接移植新词：encyclopedia、enthusiasm、atmosphere、skeleton、monopoly。时人讥这些生造词为「墨角词」（inkhorn terms），争论能不能用；争论的结果是大多数留了下来。
-- **莎士比亚与钦定版圣经**：莎翁笔下首次见于文献的词约 1700 个（OED 口径，最早见于文献不等于由他造词），eyeball、lonely 等由他落笔；1611 年钦定版圣经的措辞则把 salt of the earth（世上的盐）、the root of all evil（万恶之源）这类短语铸进了日常英语。
+- **The Renaissance import wave (16th century)**: scholars lifted words straight out of Greek and Latin: *encyclopedia*, *enthusiasm*, *atmosphere*, *skeleton*, *monopoly*. Contemporaries mocked the neologisms as "inkhorn terms" and argued about whether they could be used; most of them survived the argument.
+- **Shakespeare and the King James Bible**: roughly 1700 words are first attested in Shakespeare (by OED reckoning — first attested is not the same as coined by him), including *eyeball* and *lonely*; the 1611 King James Version cast phrases like *salt of the earth* and *the root of all evil* into everyday English.
 
-## 规范化与美语分家（1700-1900）：词典立规
+## Standardization and the American split (1700-1900): the dictionaries set the rules
 
-1712 年斯威夫特（Swift）提议设立英语学院规范语言，未获采纳。**英语至今没有官方学院**（对照法语 Académie française）。规范化的实际工作由词典完成：
+In 1712 Swift proposed founding an English academy to regulate the language; the proposal was rejected. **English still has no official academy** (compare the Académie française). The real work of standardization was done by dictionaries:
 
-- **1755 年约翰逊（Johnson）《英语词典》**：约 4.2 万词条，引文释义，一段时期内被当作英语的准绳。
-- **1828 年韦伯斯特（Webster）《美国英语词典》**：color、center、defense 一系美式拼法自此定型；color/colour 的分家不是「美国人拼错」，是 19 世纪的一次有意识立规。
+- **Johnson's *Dictionary of the English Language* (1755)**: about 42,000 entries, quotations as definitions, and for a time treated as the standard of English.
+- **Webster's *An American Dictionary of the English Language* (1828)**: from here the American spellings *color*, *center*, *defense* were fixed. The color/colour split is not "Americans spelling it wrong"; it was a deliberate act of standardization in the 19th century.
 
-18 世纪的语法书则把拉丁语法的规矩套在英语上：不定式不能拆、双重否定要相消。不少「语法规则」是规定主义的产物，语言事实并不总站在它们那边。
+The 18th-century grammars meanwhile bolted Latin rules onto English: never split the infinitive, and double negatives cancel. A fair number of "grammar rules" are the products of prescription, and the facts of the language do not always agree with them.
 
-## 帝国与全球（1600-今）：词汇回流与科学造词
+## Empire and the global era (1600-present): the reflux and scientific coinage
 
-殖民与贸易让英语成了借词的净出口国之后再净进口，全世界的词跟着货物上岸：
+Colonialism and trade turned English into a net importer after being a net exporter, and words from everywhere came ashore with the cargo:
 
-| 词 | 来源 | 路径 |
+| Word | Source | Route |
 | --- | --- | --- |
-| tea | 闽南语 te | 经荷兰人走海路 → tea；同词经陆路（粤语 cha）入波斯、俄语 → chai，一种叶子两条路 |
-| ketchup | 闽南语 kôe-chiap | 原是腌鱼露，19 世纪在美国加上番茄，酱的历史比番茄酱早两百年 |
-| shampoo | 印地语 chāmpna（按摩） | 18 世纪进入英语时还指按摩，20 世纪才专指洗头水 |
-| safari | 斯瓦希里语 ← 阿拉伯语 safar（旅行） | 东非猎游 → 远足探险 |
-| bungalow | 孟加拉语 bangla | 「孟加拉式平房」→ 单层小屋 |
-| robot | 捷克语 robota（强制劳役） | 恰佩克 1920 年剧本《罗素姆万能机器人》造的词，先于一切真实的机器人 |
+| tea | Minnan Chinese *te* | By sea via the Dutch → *tea*; the same word went overland (Cantonese *cha*) into Persian and Russian → *chai*. One leaf, two roads. |
+| ketchup | Minnan Chinese *kôe-chiap* | Originally a fermented fish sauce; tomatoes were added in America in the 19th century. The sauce is two hundred years older than tomato ketchup. |
+| shampoo | Hindi *chāmpna* (to massage) | On entering English in the 18th century it meant to massage; only in the 20th century did it come to mean shampoo. |
+| safari | Swahili ← Arabic *safar* (a journey) | East African hunting trips → long-distance expeditions. |
+| bungalow | Bengali *bangla* | "a Bengali-style bungalow" → a single-storey cottage. |
+| robot | Czech *robota* (forced labour) | Coined in Čapek's 1920 play *R.U.R.*, before any real robot existed. |
 
-科学造词继续用希腊拉丁构件：telephone（1830-70 年代定名，tēle「远」+ phōnē「声」）；television 则是个「混血词」：希腊词头 tele- 配拉丁词干 visio，当时《曼彻斯特卫报》主编斯科特（C.P. Scott）讥它「半希腊半拉丁，不会有好结果」，结果这个词活到了每个客厅。internet 一词 1970 年代见于网络工程文献，1983 年 ARPANET 切换 TCP/IP 协议后逐步专指今天的互联网；此后软件、邮件、社交媒体的词汇爆炸，几乎全部是英语本族构件的重新组合（hardware、software、email），而非新一轮外语借词——借词时代让位给了构词时代。
+Scientific coinage kept using Greek and Latin parts: *telephone* (fixed between the 1830s and 1870s, *tēle* "far" + *phōnē* "sound"); *television* is a hybrid — Greek *tele-* on a Latin stem *visio*, which the editor C. P. Scott of the *Manchester Guardian* mocked as "half Greek and half Latin, with no hope of a good result". The word survived into every living room. *Internet* appears in networking literature in the 1970s and came to mean the present internet after ARPANET switched to TCP/IP in 1983; the vocabulary explosion that followed — software, email, social media — is almost all recombination of native English parts (hardware, software, email) rather than a new wave of borrowing. The age of borrowing yielded to the age of word formation.
 
-今天全球以英语为母语者约 3.8 亿，学习者数倍于此；一门公元 5 世纪登陆小岛的日耳曼方言，长成了使用人数最多的语言之一。
+Today roughly 380 million people speak English natively, with many times that many learners; a Germanic dialect that landed on a small island in the 5th century grew into one of the most-spoken languages on earth.
 
-## 收束：一个意思的三层词
+## Closing: three layers of one meaning
 
-把全篇压缩成一张表：同一语义场里，本族词最日常、法语词居中、拉丁（希腊）词最书面。读到生词时先猜它来自哪一层，语域感觉就有了：
+The whole story in one table. Within the same semantic field the native word is the most everyday, the French word the middle register, and the Latin (or Greek) word the most written. Meet an unknown word and first guess which layer it came from — that gives you the register:
 
-| 语义场 | 本族词（古英语） | 法语词（1066 后） | 拉丁/希腊词（文艺复兴前后） |
+| Field | Native (Old English) | French (after 1066) | Latin / Greek (around the Renaissance) |
 | --- | --- | --- | --- |
-| 问 | ask | question | interrogate |
-| 王 | kingly | royal | regal |
-| 升起 | rise | mount | ascend |
-| 心 | hearty | cordial | cardiac |
-| 火 | fire | flame | conflagration |
-| 恐惧 | fear | terror | panic（希腊潘神 Pan） |
-| 结束 | end | finish | terminate |
-| 预言 | foretell | predict | prognosticate |
+| ask | ask | question | interrogate |
+| king | kingly | royal | regal |
+| rise | rise | mount | ascend |
+| heart | hearty | cordial | cardiac |
+| fire | fire | flame | conflagration |
+| fear | fear | terror | panic (Greek, from the god Pan) |
+| end | end | finish | terminate |
+| foretell | foretell | predict | prognosticate |
 
-## 延伸阅读
+## Further reading
 
-- [发展史时间线](/timeline)：本页通史的交互版，33 个节点可按语音、词汇、规范、考试四条线索过滤。
-- [词根来源](/roots)：文艺复兴那一批拉丁希腊借词，构件层面的来源故事。
-- [发音](/pronunciation)：元音大推移为什么造成拼读脱节，落到 48 音标上的对照。
+- [Timeline](/zh/timeline): the interactive version of this general history — 33 nodes filterable by sound and writing, vocabulary and etymology, standardization and dictionaries, and exams and teaching.
+- [Word roots](/zh/roots): the source stories at the level of parts of speech for that Renaissance batch of Latin and Greek loans.
+- [Pronunciation](/zh/pronunciation): why the Great Vowel Shift broke the link between spelling and sound, mapped onto the 48 phonemes.
 
-## 参考资料
+## References
 
 - [Wikipedia · English language](https://en.wikipedia.org/wiki/English_language)
 - [Wikipedia · Etymology](https://en.wikipedia.org/wiki/Etymology)
-
-<!-- BACKLINKS-AUTO -->
-## 相关页面
-
-- [about](about.md)
-- [Readme](/english/Readme.md)
-- [glossary](glossary.md)
-- [knowledge](knowledge.md)
-- [pronunciation](pronunciation.md)
-- [roots](roots.md)
-- [timeline](timeline.md)

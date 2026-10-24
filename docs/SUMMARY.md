@@ -1,5 +1,5 @@
 # Summary
 
-> 本文件保留为 mdbook 兼容说明，不提供第二份手写导航。站点导航唯一权威源是 [`sidebar.json`](.vitepress/sidebar.json)，VitePress 配置从该文件加载侧边栏。
+> This file is kept only as an mdbook-compatibility note. It does not provide a second, hand-written navigation. The single source of truth for site navigation is [`sidebar.json`](.vitepress/sidebar.json) (English, root pages) and [`sidebar.zh.json`](.vitepress/sidebar.zh.json) (Chinese, `/zh/` pages); VitePress loads the sidebars from those files.
 >
-> 维护规则：新增、改名或调整站点导航时，只修改 `.vitepress/sidebar.json`；不要在本文件复制导航条目。若未来需要 mdbook 导航，应从侧边栏生成此文件，而非手工维护。`config.mts` 当前通过 `srcExclude` 排除此文件，不会生成页面。
+> Maintenance rule: when adding, renaming or rearranging site navigation, edit only `.vitepress/sidebar.json` / `.vitepress/sidebar.zh.json`. Do not copy navigation entries into this file. If mdbook navigation is ever needed, generate this file from the sidebars rather than maintaining it by hand. `config.mts` currently excludes this file via `srcExclude`, so no page is built from it.

@@ -1,0 +1,32 @@
+# 专题
+
+这些专题页记录我遇到的具体语言问题：每页围绕一个主题整理观察、例子与相关链接。「这个词和哪个词容易混」「这句翻译怎么处理」都可以从对应专题查起。
+
+## 已有专题
+
+| 专题 | 收了什么 | 配合使用 |
+| --- | --- | --- |
+| [易混词](/zh/topic/易混词) | 14 组常考易混词，逐组给区分要点与例词点读 | [高频词汇](/zh/exam/高频词汇) |
+| [介词](/zh/topic/介词) | in/on/at 的时空分工、高频固定搭配、及物动词陷阱 | [高频语法与翻译](/zh/exam/高频语法与翻译) |
+| [词根家族](/zh/topic/词根家族) | spect、duc/duct、fer 三个家族的完整家谱 | [词根来源](/zh/roots)、[词根词缀速记](/zh/exam/词根词缀) |
+| [长难句](/zh/topic/长难句) | 四步拆句法与五个例句的逐层拆解 | [语法](/zh/grammar)、[高频阅读](/zh/exam/高频阅读) |
+| [时态对比](/zh/topic/时态对比) | 五组高频时态抉择 + 一句话三层时态示范，主将从现只收一句判定、细则指路时态页 | [时态](/zh/tense) |
+| [发音难点](/zh/topic/发音难点) | 中文母语者六处顽固替换习惯与纠正口型 | [发音](/zh/pronunciation) |
+| [非谓语动词](/zh/topic/非谓语动词) | doing / done / to do 的判定三问、宾语搭配惯性与悬垂分词自查 | [语法](/zh/grammar)、[高频语法与翻译](/zh/exam/高频语法与翻译) |
+| [比较结构](/zh/topic/比较结构) | as…as 倍数、than 对齐、no more than 否定式陷阱与比较对象自查 | [高频语法与翻译](/zh/exam/高频语法与翻译)、[易混词](/zh/topic/易混词) |
+| [从句连接词](/zh/topic/从句连接词) | that / which / what / whether / as 按从句缺什么成分来挑，同位语与定语 that 之辨 | [语法](/zh/grammar)、[高频完形与短文完成](/zh/exam/高频完形与短文完成) |
+| [被动语态](/zh/topic/被动语态) | 该不该被动的判定两问、短语动词介词不丢、get 被动与系表之辨、据说句型两次变身 | [语法](/zh/grammar)、[高频语法与翻译](/zh/exam/高频语法与翻译) |
+| [条件与让步](/zh/topic/条件与让步) | if 之外的条件口子、although 两条铁律、despite 词性设坑与 while 三义 | [语法](/zh/grammar)、[高频完形与短文完成](/zh/exam/高频完形与短文完成) |
+
+选题沿站点内容自然延伸，新专题随批次增补。
+
+## 参考资料
+
+- [Wikipedia · English grammar](https://en.wikipedia.org/wiki/English_grammar)
+- [Wikipedia · Grammar](https://en.wikipedia.org/wiki/Grammar)
+
+<!-- BACKLINKS-AUTO -->
+## 相关页面
+
+- [about](/zh/about.md)
+- [knowledge](/zh/knowledge.md)

@@ -87,7 +87,7 @@ export const TIMELINE: TimelineEvent[] = [
     who: '维京船队',
     field: 'lang',
     why: '诺森伯里亚的海岸修道院被洗劫，揭开北欧人两百年渗透的序幕。老诺斯语与古英语同源而异流，碰撞反而促成了深度交换：they、sky、window、skirt 这些最日常的词都是这批入侵者的存款，后来陆续置换掉了本土的对应词。',
-    link: '/exam/高频词汇',
+    link: '/zh/exam/高频词汇',
   },
   {
     year: 878,
@@ -102,7 +102,7 @@ export const TIMELINE: TimelineEvent[] = [
     who: '征服者威廉',
     field: 'lexicon',
     why: '黑斯廷斯一役之后，英格兰的宫廷、法庭与庄园上层说法语近三百年，约一万条法语词陆续进入英语，其中约四分之三沿用至今。pig 与 pork、cow 与 beef 的分工就是那个阶层的化石：田里的人叫英文名，桌上的人叫法语名。本站词根表里的拉丁系词根，不少正是借道法语才落进英语。',
-    link: '/exam/词根词缀',
+    link: '/zh/exam/词根词缀',
   },
   {
     year: 1204,
@@ -187,7 +187,7 @@ export const TIMELINE: TimelineEvent[] = [
     who: '塞缪尔·约翰逊',
     field: 'standard',
     why: '一个人八年独力完成约四万词条，用文学引文给每个义项立证，把词典从难词表升级为用法的档案馆。他在前言里也承认语言无法被永远钉住，规范派与描写派的张力第一次公开摊牌。按用法与词频整理词汇的思路，本站的高频词表正是它的远房后裔。',
-    link: '/exam/高频词汇',
+    link: '/zh/exam/高频词汇',
   },
   {
     year: 1762,
@@ -195,7 +195,7 @@ export const TIMELINE: TimelineEvent[] = [
     who: '罗伯特·洛斯',
     field: 'standard',
     why: '中产阶级需要「正确说话」的阶梯，规范性语法书恰逢其时地成为社会通行证。他从拉丁语法移植的不少规则（比如不许拆分不定式）在英语里并无历史依据，却统治课堂两百年；今天应试英语里一部分「为什么算错」的答案，要到这本书里找源头。',
-    link: '/exam/高频语法与翻译',
+    link: '/zh/exam/高频语法与翻译',
   },
   {
     year: 1828,
@@ -217,7 +217,7 @@ export const TIMELINE: TimelineEvent[] = [
     who: '詹姆斯·默里与语文学会',
     field: 'standard',
     why: '从 A 到 Ant 的分册问世，这项历时七十余年的工程把「历史原则」做到极致：每个词给出书证链，词典第一次以语言史自居，而不是以难词表自居。词源与书证并置的体例，也是今天拆词根、做词义联想时可以借用的方法。',
-    link: '/exam/词根词缀',
+    link: '/zh/exam/词根词缀',
   },
   {
     year: 1913,
@@ -246,7 +246,7 @@ export const TIMELINE: TimelineEvent[] = [
     who: '中国教育部（全国统考）',
     field: 'exam',
     why: '改革开放后外语门槛制度化，四六级把英语变成学历与就业的通用信号，也把中国推成全球规模最大的英语学习市场。考研、同等学力等英语统考同属这个体系，本站整理的 2010 至 2025 年同等学力真题即是其中一环。',
-    link: '/exam/真题/真题来源核对',
+    link: '/zh/exam/真题/真题来源核对',
   },
   {
     year: 1989,

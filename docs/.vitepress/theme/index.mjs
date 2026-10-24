@@ -10,7 +10,7 @@ import NotFound from './components/NotFound.vue'
 export default {
   extends: DefaultTheme,
   Layout() {
-    // 覆盖默认英文 404，换成中文页面与常用入口
+    // 覆盖默认 404，换成双语入口页（英文为主，附简体中文入口）
     return h(DefaultTheme.Layout, null, {
       'not-found': () => h(NotFound)
     })

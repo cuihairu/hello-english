@@ -2,25 +2,26 @@
 import { withBase } from 'vitepress/client'
 
 const links = [
-  { text: '发音', desc: '48 音标点读', href: '/pronunciation' },
-  { text: '专题', desc: '易混词 · 介词 · 长难句', href: '/topic' },
-  { text: '历年真题', desc: '2010-2025 整理版', href: '/exam/真题/真题来源核对' },
-  { text: '关于本站', desc: '学习路径与更新节奏', href: '/about' }
+  { text: 'Grammar', desc: 'Sentence patterns · clauses · mood', href: '/grammar' },
+  { text: 'Tenses', desc: '16-cell matrix and nine tenses', href: '/tense' },
+  { text: 'History', desc: '449 to a world language', href: '/history' },
+  { text: 'About', desc: 'Scope and update cadence', href: '/about' },
+  { text: '简体中文', desc: '简体中文版本', href: '/zh/' }
 ]
 </script>
 
 <template>
   <div class="nf">
     <p class="nf-code">404</p>
-    <h1 class="nf-title">页面不存在</h1>
-    <p class="nf-desc">链接可能已过期，或地址拼写有误。从下面几个入口继续：</p>
+    <h1 class="nf-title">Page not found</h1>
+    <p class="nf-desc">The link may be out of date, or the address may be misspelled. Continue from one of these:</p>
     <nav class="nf-grid">
       <a v-for="l in links" :key="l.href" class="nf-card" :href="withBase(l.href)">
         <span class="nf-t">{{ l.text }}</span>
         <span class="nf-d">{{ l.desc }}</span>
       </a>
     </nav>
-    <p class="nf-hint">右上角的搜索框可以全站搜页面。</p>
+    <p class="nf-hint">The search box in the top-right corner searches the whole site.</p>
   </div>
 </template>
 
