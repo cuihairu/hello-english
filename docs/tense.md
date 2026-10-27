@@ -134,8 +134,8 @@ Cases that **do not shift**: when the clause states an objective truth (The teac
 ## Further reading
 
 - [Grammar](/grammar): the backbone outside tense — sentence patterns, clauses, non-finite verbs, the subjunctive.
-- [High-frequency grammar and translation](/zh/exam/高频语法与翻译): tense points counted across the real papers, plus breakdowns of long translation sentences.
-- [Pronunciation](/zh/pronunciation): can't hear the linking or weak forms in these examples? Go to the pronunciation page and drill /ə/ and stress.
+- [High-frequency grammar and translation](/exam/grammar-and-translation): tense points counted across the real papers, plus breakdowns of long translation sentences.
+- [Pronunciation](/pronunciation): can't hear the linking or weak forms in these examples? Go to the pronunciation page and drill /ə/ and stress.
 
 ## References
 

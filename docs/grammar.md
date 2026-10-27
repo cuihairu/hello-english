@@ -1,6 +1,6 @@
 # Grammar
 
-Grammar answers one question: **how do words arrange into sentences, and sentences into paragraphs**. I first draw the map of the system, then note the core logic and the trap in each part; tense has its own page (see [Tenses](/tense)), and the exam-side statistics plus breakdowns of long, hard sentences are in [high-frequency grammar and translation](/zh/exam/高频语法与翻译). Key example sentences read aloud on tap.
+Grammar answers one question: **how do words arrange into sentences, and sentences into paragraphs**. I first draw the map of the system, then note the core logic and the trap in each part; tense has its own page (see [Tenses](/tense)), and the exam-side statistics plus breakdowns of long, hard sentences are in [high-frequency grammar and translation](/exam/grammar-and-translation). Key example sentences read aloud on tap.
 
 ## The map
 
@@ -137,8 +137,8 @@ Certainty of inference comes on a gradient: **must (certain) > may (possible) > 
 ## Further reading
 
 - [Tenses](/tense): the largest block of the verb complex — the 16-cell matrix and the nine tenses in detail.
-- [High-frequency grammar and translation](/zh/exam/高频语法与翻译): grammar points counted across the real papers, plus breakdowns of long, hard sentences.
-- [Pronunciation](/zh/pronunciation): the other half of the fundamentals outside grammar; the example sentences read aloud.
+- [High-frequency grammar and translation](/exam/grammar-and-translation): grammar points counted across the real papers, plus breakdowns of long, hard sentences.
+- [Pronunciation](/pronunciation): the other half of the fundamentals outside grammar; the example sentences read aloud.
 
 ## References
 

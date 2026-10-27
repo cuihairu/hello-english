@@ -2,7 +2,7 @@
 
 A straight fact about English: in today's dictionary about 28% of the words come from French, about 28% from Latin, about 6% from Greek, and about 25% are native Germanic (Finkenstaedt & Wolff, the classic 1973 count). **The language that looks "most English" has three quarters of its vocabulary borrowed.** I have sorted through the years how those words entered, layer by layer: the Germanic base laid down in 449, the two big imports from the Norse and the Norman conquest, the Renaissance Latin and Greek wave, and finally the imperial-era reflux of words from everywhere.
 
-If you prefer the interactive view, go straight to the [timeline](/zh/timeline) — its 33 nodes correspond to this general history one to one.
+If you prefer the interactive view, go straight to the [timeline](/timeline) — its 33 nodes correspond to this general history one to one.
 
 ## Old English (449-1066): landing and naming
 
@@ -45,7 +45,7 @@ Chaucer wrote the *Canterbury Tales* around 1387 in London dialect, and a rhymin
 
 Between roughly 1400 and 1700 the English long vowels rose across the board — the **Great Vowel Shift**: /aː/ rose to /eː/ and on to /eɪ/, /eː/ rose to /iː/, /oː/ rose to /uː/, and so on. *Name* stopped being "nah-may" and *mouse* stopped being "moose". Spelling had already been frozen by print around 1476, so **the spelling records Chaucer's sounds while the mouth speaks Shakespeare's** — this is the whole root of English's spelling-pronunciation mismatch.
 
-The traces are still everywhere: the long/short opposition in *sheep* and *ship* (see the near-miss table on the [pronunciation page](/zh/pronunciation)), the magic-e rule (*hat* / *hate*), and the systematic difference between British and American vowels are all aftershocks of the same shift in different dialects.
+The traces are still everywhere: the long/short opposition in *sheep* and *ship* (see the near-miss table on the [pronunciation page](/pronunciation)), the magic-e rule (*hat* / *hate*), and the systematic difference between British and American vowels are all aftershocks of the same shift in different dialects.
 
 Two vocabulary events of the same era:
 
@@ -95,9 +95,9 @@ The whole story in one table. Within the same semantic field the native word is 
 
 ## Further reading
 
-- [Timeline](/zh/timeline): the interactive version of this general history — 33 nodes filterable by sound and writing, vocabulary and etymology, standardization and dictionaries, and exams and teaching.
-- [Word roots](/zh/roots): the source stories at the level of parts of speech for that Renaissance batch of Latin and Greek loans.
-- [Pronunciation](/zh/pronunciation): why the Great Vowel Shift broke the link between spelling and sound, mapped onto the 48 phonemes.
+- [Timeline](/timeline): the interactive version of this general history — 33 nodes filterable by sound and writing, vocabulary and etymology, standardization and dictionaries, and exams and teaching.
+- [Word roots](/roots): the source stories at the level of parts of speech for that Renaissance batch of Latin and Greek loans.
+- [Pronunciation](/pronunciation): why the Great Vowel Shift broke the link between spelling and sound, mapped onto the 48 phonemes.
 
 ## References
 

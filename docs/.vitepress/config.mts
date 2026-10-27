@@ -69,6 +69,7 @@ export default defineConfig({
             ]
           },
           { text: 'Topics', link: '/topic/' },
+          { text: 'Key-point analysis', link: '/exam/key-points' },
           { text: 'About', link: '/about' }
         ],
         sidebar: sidebar as never

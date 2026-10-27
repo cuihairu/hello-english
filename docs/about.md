@@ -9,16 +9,16 @@ The site is bilingual. English pages live at the root; the full Chinese edition 
 | Section | Content | Scale |
 | --- | --- | --- |
 | [Study notes](/grammar) | Pronunciation (with audio), word roots, history, timeline, grammar, tenses | 48 phonemes · 30 roots and affixes · 33 timeline nodes · a 16-cell tense matrix |
-| [Topics](/zh/topic/) | Deep dives organized by problem type: confusable words, prepositions, root families, long hard sentences, tense contrasts, pronunciation pitfalls, non-finite verbs, comparatives, clause connectors, the passive, conditionals and concessives | 11 pages |
-| [Exam material](/zh/exam/高频考点分析) | Point-by-point statistics, quick-memorization sheets, a prediction for the 2026 paper, and the past papers | 16 papers from 2010-2025 · 148 verified vocabulary items (including same-type items from the pre-2013 papers) |
+| [Topics](/topic/) | Deep dives organized by problem type: confusable words, prepositions, root families, long hard sentences, tense contrasts, pronunciation pitfalls, non-finite verbs, comparatives, clause connectors, the passive, conditionals and concessives | 11 pages |
+| [Exam material](/exam/key-points) | Point-by-point statistics, quick-memorization sheets, a prediction for the 2026 paper, and the past papers | 16 papers from 2010-2025 · 148 verified vocabulary items (including same-type items from the pre-2013 papers) |
 
 Two caveats, stated plainly: the past-paper pages were assembled from publicly circulated recollections and PDF transcriptions, **not** from an official release; missing content and reconstructed answers carry a consistent marking system, documented in [the paper source notes](/zh/exam/真题/真题来源核对).
 
 ## What I record
 
-- **Exam records.** The papers here are the English paper of China's同等学力申硕 graduate-study entrance exam (spoken communication, vocabulary, reading, cloze, short-text completion, translation and writing). The [exam structure notes](/zh/english/Readme#考试结构) document how the paper changed in 2013.
+- **Exam records.** The papers here are the English paper of China's equivalent-academic-level master's-degree graduate entrance exam (spoken communication, vocabulary, reading, cloze, short-text completion, translation and writing). The [exam structure notes](/english/Readme#exam-structure) document how the paper changed in 2013.
 - **Language and word formation.** The pronunciation, roots, grammar and tense pages hold the concepts, examples and interpretations I worked out myself.
-- **For anyone curious about where English comes from.** [History](/history) tracks sixteen centuries of change; [word roots](/zh/roots) explains which language each part of a word came from and what it meant there.
+- **For anyone curious about where English comes from.** [History](/history) tracks sixteen centuries of change; [word roots](/roots) explains which language each part of a word came from and what it meant there.
 
 ## How the content was put together
 
