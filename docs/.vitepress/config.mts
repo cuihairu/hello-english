@@ -28,6 +28,10 @@ export default defineConfig({
   // docs/SUMMARY.md 是 mdbook SUMMARY 的结构映射底稿，不作为页面构建
   srcExclude: ['**/SUMMARY.md'],
 
+  // 增量翻译阶段：英文页已互相链接 topic/ 与 exam/ 的页面，这两块还没译出来，
+  // 构建期死链检查会把它们当 80+ 条死链。最后一批译完后删掉这一行即可恢复全检。
+  ignoreDeadLinks: [/^\/(topic|exam)\//],
+
   // 每页补 og 分享 meta（返回值与原 head 合并，不会覆盖默认项）
   // ctx.page 是 md 源路径而非输出 html（类型注释与实测不符），按 md 去后缀
   transformHead({ page, title, description }) {
@@ -56,9 +60,12 @@ export default defineConfig({
           {
             text: 'Learning Notes',
             items: [
+              { text: 'Pronunciation', link: '/pronunciation' },
+              { text: 'Word roots', link: '/roots' },
+              { text: 'History', link: '/history' },
+              { text: 'History timeline', link: '/timeline' },
               { text: 'Grammar', link: '/grammar' },
-              { text: 'Tenses', link: '/tense' },
-              { text: 'History', link: '/history' }
+              { text: 'Tenses', link: '/tense' }
             ]
           },
           { text: 'About', link: '/about' }

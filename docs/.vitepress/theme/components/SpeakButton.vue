@@ -70,7 +70,16 @@ async function lookupAudio(word) {
 </script>
 
 <script setup>
-import { onBeforeUnmount, onMounted, ref } from 'vue'
+import { useData } from 'vitepress'
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+
+/* 按钮上的状态词与提示文案按 locale 取：zh-CN 保留原中文，其余语言走英文 */
+const { site } = useData()
+const L = computed(() =>
+  String(site.value.lang || '').toLowerCase().startsWith('zh')
+    ? { human: '真人音频', synth: '合成语音', read: '朗读：', clickRead: '点击朗读：', unsupported: '当前浏览器不支持语音播放' }
+    : { human: 'Real voice', synth: 'Synth voice', read: 'Read aloud: ', clickRead: 'Click to read: ', unsupported: 'This browser does not support audio playback' }
+)
 
 const props = defineProps({
   /** 要朗读的单词或句子 */
@@ -135,7 +144,7 @@ function startClip(url) {
     if (!isMine()) return
     sounded = true
     state.value = 'playing'
-    source.value = '真人音频'
+    source.value = L.value.human
   })
   player.addEventListener('ended', () => {
     if (isMine() && sounded) {
@@ -192,7 +201,7 @@ function startSpeech() {
   }
   /* 合成没有可靠的「开始」事件：乐观置为 playing，按钮即点即停 */
   state.value = 'playing'
-  source.value = '合成语音'
+  source.value = L.value.synth
   synth.cancel()
   synth.speak(u)
   /* 个别环境（无英文语音包等）不出声也不回调：按文本长度设看门狗复位 */
@@ -233,8 +242,8 @@ onBeforeUnmount(() => {
     class="he-say"
     :class="`is-${state}`"
     :disabled="!supported"
-    :aria-label="`朗读：${word}`"
-    :title="supported ? `点击朗读：${word}` : '当前浏览器不支持语音播放'"
+    :aria-label="`${L.read}${word}`"
+    :title="supported ? `${L.clickRead}${word}` : L.unsupported"
     @click="play"
   >
     <span class="he-say-icon" aria-hidden="true">

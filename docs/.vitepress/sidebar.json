@@ -7,18 +7,38 @@
     "text": "Learning Notes",
     "items": [
       {
+        "text": "Knowledge index",
+        "link": "/knowledge"
+      },
+      {
+        "text": "Pronunciation",
+        "link": "/pronunciation"
+      },
+      {
+        "text": "Word roots",
+        "link": "/roots"
+      },
+      {
+        "text": "History",
+        "link": "/history"
+      },
+      {
+        "text": "History timeline",
+        "link": "/timeline"
+      },
+      {
         "text": "Grammar",
         "link": "/grammar"
       },
       {
         "text": "Tenses",
         "link": "/tense"
-      },
-      {
-        "text": "History",
-        "link": "/history"
       }
     ]
+  },
+  {
+    "text": "Glossary",
+    "link": "/glossary"
   },
   {
     "text": "About",

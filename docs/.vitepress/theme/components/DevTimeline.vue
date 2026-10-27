@@ -8,16 +8,29 @@
  */
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { withBase } from 'vitepress'
-import { ERAS, FIELD_LABELS, TIMELINE, type TimelineEvent } from '../data/timeline'
+import { ERAS, FIELD_LABELS, TIMELINE, type Era, type TimelineEvent } from '../data/timeline'
 
 type Field = TimelineEvent['field']
 type Filter = 'all' | Field
 
-/** 稳定 id：取条目在 TIMELINE 里的原始序号，筛选切换后展开态不串位 */
-const EVENTS = TIMELINE.map((e, i) => ({ ...e, id: i }))
+/* 数据与界面小标签都走 props：不传时用中文数据集（zh 侧页面），
+   英文侧页面从 timeline.en 传英文数据集与英文文案 */
+const props = defineProps({
+  events: { type: Array as () => TimelineEvent[], default: () => TIMELINE },
+  eras: { type: Array as () => Era[], default: () => ERAS },
+  fieldLabels: { type: Object as () => Record<Field, string>, default: () => FIELD_LABELS },
+  allLabel: { type: String, default: '全部' },
+  filterLabel: { type: String, default: '按类别筛选时间线' },
+  nodesLabel: { type: String, default: '个节点' },
+  whoLabel: { type: String, default: '谁在推动' },
+  moreLabel: { type: String, default: '站内延伸阅读' }
+})
+
+/** 稳定 id：取条目在 events 里的原始序号，筛选切换后展开态不串位 */
+const EVENTS = props.events.map((e, i) => ({ ...e, id: i }))
 const byId = new Map(EVENTS.map((e) => [e.id, e]))
 
-const fields = Object.keys(FIELD_LABELS) as Field[]
+const fields = Object.keys(props.fieldLabels) as Field[]
 
 const filter = ref<Filter>('all')
 const openId = ref<number | null>(null)
@@ -34,12 +47,12 @@ const filtered = computed(() =>
 
 /** 归组：year < era.to 即入组，最后一个时期兜底；边界年份（1066、1476）归入后一个时期 */
 function eraIndexOf(year: number): number {
-  for (let i = 0; i < ERAS.length; i++) if (year < ERAS[i].to) return i
-  return ERAS.length - 1
+  for (let i = 0; i < props.eras.length; i++) if (year < props.eras[i].to) return i
+  return props.eras.length - 1
 }
 
 const groups = computed(() =>
-  ERAS.map((era, i) => ({
+  props.eras.map((era, i) => ({
     era,
     events: filtered.value.filter((e) => eraIndexOf(e.year) === i),
   })).filter((g) => g.events.length > 0),
@@ -100,7 +113,7 @@ onBeforeUnmount(() => {
 
 <template>
   <section ref="rootEl" class="he-tl">
-    <div class="he-tl-filters" role="group" aria-label="按类别筛选时间线">
+    <div class="he-tl-filters" role="group" :aria-label="filterLabel">
       <button
         v-for="f in ['all', ...fields] as Filter[]"
         :key="f"
@@ -110,7 +123,7 @@ onBeforeUnmount(() => {
         :aria-pressed="filter === f"
         @click="filter = f"
       >
-        {{ f === 'all' ? '全部' : FIELD_LABELS[f] }}
+        {{ f === 'all' ? allLabel : fieldLabels[f] }}
         <span class="he-tl-chip-count">{{ counts[f] }}</span>
       </button>
     </div>
@@ -126,7 +139,7 @@ onBeforeUnmount(() => {
           </svg>
           <h3 class="he-tl-era-name">{{ g.era.name }}</h3>
           <span class="he-tl-era-range">{{ g.era.label }}</span>
-          <span class="he-tl-era-count">{{ g.events.length }} 个节点</span>
+          <span class="he-tl-era-count">{{ g.events.length }} {{ nodesLabel }}</span>
         </div>
         <p class="he-tl-era-intro">{{ g.era.intro }}</p>
       </header>
@@ -143,19 +156,19 @@ onBeforeUnmount(() => {
             >
               <span class="he-tl-year">{{ ev.year }}</span>
               <span class="he-tl-title">{{ ev.title }}</span>
-              <span class="he-tl-field">{{ FIELD_LABELS[ev.field] }}</span>
+              <span class="he-tl-field">{{ fieldLabels[ev.field] }}</span>
               <svg class="he-tl-chevron" viewBox="0 0 16 16" aria-hidden="true">
                 <path d="M4 6l4 4 4-4" />
               </svg>
             </button>
             <div v-show="openId === ev.id" :id="`he-tl-detail-${ev.id}`" class="he-tl-detail">
               <p class="he-tl-who">
-                <span class="he-tl-who-label">谁在推动</span>
+                <span class="he-tl-who-label">{{ whoLabel }}</span>
                 {{ ev.who }}
               </p>
               <p class="he-tl-why">{{ ev.why }}</p>
               <p v-if="ev.link" class="he-tl-linkline">
-                <a class="he-tl-link" :href="withBase(ev.link)">站内延伸阅读</a>
+                <a class="he-tl-link" :href="withBase(ev.link)">{{ moreLabel }}</a>
               </p>
             </div>
           </article>
