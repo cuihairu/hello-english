@@ -148,6 +148,80 @@
     ]
   },
   {
+    "text": "Past papers",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Past-paper sources",
+        "link": "/exam/papers/sources"
+      },
+      {
+        "text": "2025 past paper",
+        "link": "/exam/papers/2025"
+      },
+      {
+        "text": "2024 past paper",
+        "link": "/exam/papers/2024"
+      },
+      {
+        "text": "2023 past paper",
+        "link": "/exam/papers/2023"
+      },
+      {
+        "text": "2022 past paper",
+        "link": "/exam/papers/2022"
+      },
+      {
+        "text": "2021 past paper",
+        "link": "/exam/papers/2021"
+      },
+      {
+        "text": "2020 past paper",
+        "link": "/exam/papers/2020"
+      },
+      {
+        "text": "2019 past paper",
+        "link": "/exam/papers/2019"
+      },
+      {
+        "text": "2018 past paper",
+        "link": "/exam/papers/2018"
+      },
+      {
+        "text": "2017 past paper",
+        "link": "/exam/papers/2017"
+      },
+      {
+        "text": "2016 past paper",
+        "link": "/exam/papers/2016"
+      },
+      {
+        "text": "2015 past paper",
+        "link": "/exam/papers/2015"
+      },
+      {
+        "text": "2014 past paper",
+        "link": "/exam/papers/2014"
+      },
+      {
+        "text": "2013 past paper",
+        "link": "/exam/papers/2013"
+      },
+      {
+        "text": "2012 past paper",
+        "link": "/exam/papers/2012"
+      },
+      {
+        "text": "2011 past paper",
+        "link": "/exam/papers/2011"
+      },
+      {
+        "text": "2010 past paper",
+        "link": "/exam/papers/2010"
+      }
+    ]
+  },
+  {
     "text": "Glossary",
     "link": "/glossary"
   },

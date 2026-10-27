@@ -28,10 +28,6 @@ export default defineConfig({
   // docs/SUMMARY.md 是 mdbook SUMMARY 的结构映射底稿，不作为页面构建
   srcExclude: ['**/SUMMARY.md'],
 
-  // 增量翻译阶段：英文页已互相链接 topic/ 与 exam/ 的页面，这两块还没译出来，
-  // 构建期死链检查会把它们当 80+ 条死链。最后一批译完后删掉这一行即可恢复全检。
-  ignoreDeadLinks: [/^\/(topic|exam)\//],
-
   // 每页补 og 分享 meta（返回值与原 head 合并，不会覆盖默认项）
   // ctx.page 是 md 源路径而非输出 html（类型注释与实测不符），按 md 去后缀
   transformHead({ page, title, description }) {
@@ -70,6 +66,7 @@ export default defineConfig({
           },
           { text: 'Topics', link: '/topic/' },
           { text: 'Key-point analysis', link: '/exam/key-points' },
+          { text: 'Past papers', link: '/exam/papers/sources' },
           { text: 'About', link: '/about' }
         ],
         sidebar: sidebar as never
@@ -118,9 +115,10 @@ export default defineConfig({
     siteTitle: 'Hello English',
 
     // 语言切换器默认把当前页路径改写进目标语言（linkToCorrespondingPage 写死在
-    // VPNavBarExtra.vue 里），英文页还没翻完时会指向不存在的页 → 404。
-    // 增量翻译阶段关掉：切换落到目标语言首页，不产生死链。
-    // 全部页面都译完后删掉这一行即可恢复「切语言留在同页」。
+    // VPNavBarExtra.vue 里）。两边目录名并不对齐：英文侧是 /exam/key-points、
+    // /exam/papers/2010，中文侧是 /zh/exam/高频考点分析、/zh/exam/真题/2010年…，
+    // 逐页改写会指到不存在的页 → 404。关掉后切换落到目标语言首页，代价可接受；
+    // 要恢复「切语言留在同页」得先把中文侧文件命名改成英文 slug 才能逐页对应。
     i18nRouting: false,
 
     socialLinks: [

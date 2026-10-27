@@ -12,7 +12,7 @@ The site is bilingual. English pages live at the root; the full Chinese edition 
 | [Topics](/topic/) | Deep dives organized by problem type: confusable words, prepositions, root families, long hard sentences, tense contrasts, pronunciation pitfalls, non-finite verbs, comparatives, clause connectors, the passive, conditionals and concessives | 11 pages |
 | [Exam material](/exam/key-points) | Point-by-point statistics, quick-memorization sheets, a prediction for the 2026 paper, and the past papers | 16 papers from 2010-2025 · 148 verified vocabulary items (including same-type items from the pre-2013 papers) |
 
-Two caveats, stated plainly: the past-paper pages were assembled from publicly circulated recollections and PDF transcriptions, **not** from an official release; missing content and reconstructed answers carry a consistent marking system, documented in [the paper source notes](/zh/exam/真题/真题来源核对).
+Two caveats, stated plainly: the past-paper pages were assembled from publicly circulated recollections and PDF transcriptions, **not** from an official release; missing content and reconstructed answers carry a consistent marking system, documented in [the paper source notes](/exam/papers/sources).
 
 ## What I record
 
