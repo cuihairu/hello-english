@@ -37,6 +37,59 @@
     ]
   },
   {
+    "text": "Topics",
+    "items": [
+      {
+        "text": "Overview",
+        "link": "/topic/"
+      },
+      {
+        "text": "Confusing words",
+        "link": "/topic/confusing-words"
+      },
+      {
+        "text": "Prepositions",
+        "link": "/topic/prepositions"
+      },
+      {
+        "text": "Root families",
+        "link": "/topic/root-families"
+      },
+      {
+        "text": "Long and complex sentences",
+        "link": "/topic/long-sentences"
+      },
+      {
+        "text": "Tense comparison",
+        "link": "/topic/tense-comparison"
+      },
+      {
+        "text": "Pronunciation hard spots",
+        "link": "/topic/pronunciation-hard-parts"
+      },
+      {
+        "text": "Non-finite verbs",
+        "link": "/topic/non-finite-verbs"
+      },
+      {
+        "text": "Comparison structures",
+        "link": "/topic/comparison-structures"
+      },
+      {
+        "text": "Clause connectors",
+        "link": "/topic/clause-connectors"
+      },
+      {
+        "text": "Passive voice",
+        "link": "/topic/passive-voice"
+      },
+      {
+        "text": "Condition and concession",
+        "link": "/topic/condition-and-concession"
+      }
+    ]
+  },
+  {
     "text": "Glossary",
     "link": "/glossary"
   },

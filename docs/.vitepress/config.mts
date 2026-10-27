@@ -68,6 +68,7 @@ export default defineConfig({
               { text: 'Tenses', link: '/tense' }
             ]
           },
+          { text: 'Topics', link: '/topic/' },
           { text: 'About', link: '/about' }
         ],
         sidebar: sidebar as never
