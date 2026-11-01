@@ -1,16 +1,32 @@
 [English](README.md) | [中文](README.zh.md)
 
-<div align="center"><img src="docs/public/logo.svg" width="64" height="64" alt="logo" /> <img src="docs/public/badges/topic.svg" alt="topic" /> <img src="docs/public/badges/docs.svg" alt="docs" /> <img src="docs/public/badges/license.svg" alt="license" /> <img src="docs/public/badges/langs.svg" alt="langs" /> <a href="https://cuihairu.github.io/hello-english/zh/"><img src="https://img.shields.io/badge/docs-文档-blue" alt="docs"></a></div>
+<div align="center">
+
+<p align="center"><img src="docs/public/logo.svg" width="64" height="64" alt="logo" /> </p>
+
+# Hello English
+
+<p align="center">
+  <img src="docs/public/badges/topic.svg" alt="topic" />
+  <img src="docs/public/badges/docs.svg" alt="docs" />
+  <img src="docs/public/badges/license.svg" alt="license" />
+  <img src="docs/public/badges/langs.svg" alt="langs" />
+</p>
+
+**英语学习笔记**
+
+[在线阅读](https://cuihairu.github.io/hello-english/zh//) · [知识点总纲](https://cuihairu.github.io/hello-english/zh//knowledge) · [发音](https://cuihairu.github.io/hello-english/zh//pronunciation) · [词根来源](https://cuihairu.github.io/hello-english/zh//roots) · [发展历史](https://cuihairu.github.io/hello-english/zh//history) · [历年真题](https://cuihairu.github.io/hello-english/zh//exam/真题/真题来源核对) <a href="https://cuihairu.github.io/hello-english/zh/"><img src="https://img.shields.io/badge/%E6%96%87%E6%A1%A3-blue" alt="docs"></a>
+</div>
 
 ---
 
-## 项目记录
+## 简介
 
-这里持续整理我的英语笔记与备考记录，内容包括音标、词根、语法、时态、英语语言一千六百年的发展历史，以及历年考点分析和 2010-2025 年真题。站点使用 [VitePress](https://vitepress.dev) 构建。
+本项目是一份持续整理的英语学习笔记，从音标、词根、语法、时态讲到英语语言一千六百年的发展历史；历年备考中积累的考点分析与 2010-2025 年真题也一并收录，作为阅读与练习材料。使用 [VitePress](https://vitepress.dev) 构建站点。
 
-- **语言笔记**：发音（单词与例句点读）、词根来源、发展历史、发展史时间线、语法、时态
+- **学习笔记**：发音（单词与例句点读）、词根来源、发展历史、发展史时间线、语法、时态
 - **专题**：易混词、介词、词根家族、长难句、时态对比、发音难点、非谓语动词、比较结构、从句连接词、被动语态、条件与让步，一类问题收拢成一页，[专题总览](https://cuihairu.github.io/hello-english/topic)
-- **备考记录**：词汇、口语交际、语法与翻译、写作、阅读、完形与短文完成的高频考点统计，配套速背版与考点预测
+- **考点分析**：词汇、口语交际、语法与翻译、写作、阅读、完形与短文完成的高频考点统计，配套速背版与考点预测
 - **历年真题**：2010-2025 年共 16 份整理版真题，附来源核对说明与参考答案
 
 ## 内容与实现状态
@@ -32,7 +48,7 @@
 | 关于本站：定位、受众、内容视角、更新节奏 | `/about` | 已实现 |
 | 考点分析（2010-2025 真题） | `/exam/*` | 已实现（词汇题样本 148 题，含 2010-2012 旧卷同型题；2024 答案待核对暂未并入统计） |
 | 考场时间分配：各部分节奏、六个检查点、分值-时间性价比 | `/exam/考场时间分配` | 已实现 |
-| 模拟卷记录与复盘：按完整度选卷、评分表、复盘流程 | `/exam/模拟考试指南` | 已实现 |
+| 模拟考试指南：按完整度选卷、评分表、复盘流程 | `/exam/模拟考试指南` | 已实现 |
 | 历年真题 2010-2025 共 16 份 | `/exam/真题/*` | 已实现（整理版，2022 年个别英文题面〔待补充〕、2024 年部分答案标待核对、2015 年答案系整理推导待核对；2015、2018、2021、2023 卷二缺参考译文与范文，页内已标） |
 | 本地搜索：全文检索，中文逐字切词 | 全站搜索框 | 已实现（西文按词、连续汉字逐字切，词中字可命中正文） |
 | 站点基建：sitemap 与 robots、og/twitter 分享卡、中文 404 页 | 全站 | 已实现（构建时另含内链死链检查） |
