@@ -1,23 +1,6 @@
 [English](README.md) | [中文](README.zh.md)
 
-<div align="center">
-
-<p align="center"><img src="docs/public/logo.svg" width="64" height="64" alt="logo" /> </p>
-
-# Hello English
-
-<p align="center">
-  <img src="docs/public/badges/topic.svg" alt="topic" />
-  <img src="docs/public/badges/docs.svg" alt="docs" />
-  <img src="docs/public/badges/license.svg" alt="license" />
-  <img src="docs/public/badges/langs.svg" alt="langs" />
-</p>
-
-**英语笔记与个人备考记录**
-
-[在线阅读](https://cuihairu.github.io/hello-english/) · [知识点总纲](https://cuihairu.github.io/hello-english/knowledge) · [发音](https://cuihairu.github.io/hello-english/pronunciation) · [词根来源](https://cuihairu.github.io/hello-english/roots) · [发展历史](https://cuihairu.github.io/hello-english/history) · [历年真题](https://cuihairu.github.io/hello-english/exam/真题/真题来源核对)
-
-</div>
+<div align="center"><img src="docs/public/logo.svg" width="64" height="64" alt="logo" /> <img src="docs/public/badges/topic.svg" alt="topic" /> <img src="docs/public/badges/docs.svg" alt="docs" /> <img src="docs/public/badges/license.svg" alt="license" /> <img src="docs/public/badges/langs.svg" alt="langs" /> <a href="https://cuihairu.github.io/hello-english/zh/"><img src="https://img.shields.io/badge/docs-文档-blue" alt="docs"></a></div>
 
 ---
 
