@@ -6,16 +6,11 @@
 
 # Hello English
 
-<p align="center">
-  <img src="docs/public/badges/topic.svg" alt="topic" />
-  <img src="docs/public/badges/docs.svg" alt="docs" />
-  <img src="docs/public/badges/license.svg" alt="license" />
-  <img src="docs/public/badges/langs.svg" alt="langs" />
-</p>
+<p align="center"><a href="https://cuihairu.github.io/hello-english/zh/"><img src="https://img.shields.io/badge/%E6%96%87%E6%A1%A3-blue" alt="docs"></a> <img src="docs/public/badges/topic.svg" alt="topic" /> <img src="docs/public/badges/docs.svg" alt="docs" /> <img src="docs/public/badges/license.svg" alt="license" /> <img src="docs/public/badges/langs.svg" alt="langs" /></p>
 
 **英语学习笔记**
 
-[在线阅读](https://cuihairu.github.io/hello-english/zh//) · [知识点总纲](https://cuihairu.github.io/hello-english/zh//knowledge) · [发音](https://cuihairu.github.io/hello-english/zh//pronunciation) · [词根来源](https://cuihairu.github.io/hello-english/zh//roots) · [发展历史](https://cuihairu.github.io/hello-english/zh//history) · [历年真题](https://cuihairu.github.io/hello-english/zh//exam/真题/真题来源核对) <a href="https://cuihairu.github.io/hello-english/zh/"><img src="https://img.shields.io/badge/%E6%96%87%E6%A1%A3-blue" alt="docs"></a>
+[在线阅读](https://cuihairu.github.io/hello-english/zh/) · [知识点总纲](https://cuihairu.github.io/hello-english/zh/knowledge) · [发音](https://cuihairu.github.io/hello-english/zh/pronunciation) · [词根来源](https://cuihairu.github.io/hello-english/zh/roots) · [发展历史](https://cuihairu.github.io/hello-english/zh/history) · [历年真题](https://cuihairu.github.io/hello-english/zh/exam/真题/真题来源核对)
 </div>
 
 ---
