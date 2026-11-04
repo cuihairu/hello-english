@@ -6,6 +6,7 @@ import '@fontsource/source-serif-4/700.css'
 import './style.css'
 import SpeakButton from './components/SpeakButton.vue'
 import NotFound from './components/NotFound.vue'
+import './custom.css'
 
 export default {
   extends: DefaultTheme,
