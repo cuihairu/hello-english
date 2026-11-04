@@ -1,8 +1,18 @@
+<div align="center">
+
 [English](README.md) | [中文](README.zh.md)
 
-<div align="center">
-  <img src="docs/public/logo.svg" width="64" height="64" alt="logo" />
-  <a href="https://cuihairu.github.io/hello-english/"><img src="https://img.shields.io/badge/docs-blue" alt="docs"></a> <img src="docs/public/badges/topic.svg" alt="topic" /> <img src="docs/public/badges/docs.svg" alt="docs" /> <img src="docs/public/badges/license.svg" alt="license" /> <img src="docs/public/badges/langs.svg" alt="langs" />
+<p align="center"><img src="docs/public/logo.svg" width="64" height="64" alt="logo" /></p>
+
+# Hello English
+
+<p align="center">
+  <img src="docs/public/badges/topic.svg" alt="topic" />
+  <img src="docs/public/badges/docs.svg" alt="docs" />
+  <img src="docs/public/badges/license.svg" alt="license" />
+  <img src="docs/public/badges/langs.svg" alt="langs" />
+</p>
+
 </div>
 
 ---
@@ -59,10 +69,10 @@ Behavior: when a word is clicked, the human recording from dictionaryapi.dev is 
 ## Local development
 
 ```bash
-npm install
-npm run docs:dev      # local development server, default http://localhost:5173/hello-english/
-npm run docs:build    # build into docs/.vitepress/dist, with a dead-link check during the build
-npm run docs:preview  # preview the built site locally
+pnpm install
+pnpm run docs:dev      # local development server, default http://localhost:5173/hello-english/
+pnpm run docs:build    # build into docs/.vitepress/dist, with a dead-link check during the build
+pnpm run docs:preview  # preview the built site locally
 ```
 
 ## Directory structure
